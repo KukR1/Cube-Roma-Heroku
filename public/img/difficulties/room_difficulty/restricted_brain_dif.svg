@@ -1,0 +1,40 @@
+<svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 203.11">
+    <defs>
+        <style>.lava-brain-1{font-size:42.17px;font-family:TitilliumWeb;}.lava-brain-1,.lava-brain-2{fill:#1dfe98;}.lava-brain-3{fill:none;stroke:#1dfe98;stroke-miterlimit:10;stroke-width:6px;opacity:0.3;}
+            .lava-brain-4{
+            stroke-width:6px;
+            stroke:#1dfe98;
+            stroke-linecap: round;
+            fill:none;
+            opacity:1;
+            -webkit-transform-origin: 50% 34.5%;
+            -ms-transform-origin: 50% 34.5%;
+            transform-origin: 50% 34.5%;
+            transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+            }
+        </style>
+    </defs>
+    <text class="lava-brain-1" transform="translate(34.58 198.77)">40%</text>
+    <path class="lava-brain-2"
+          d="M101.57,66.76h0a15.57,15.57,0,0,0-30.46,0H69.18a15.57,15.57,0,0,0-30.46,0H30.2v6.5h8.5a15.59,15.59,0,0,0,30.49,0H71.1a15.59,15.59,0,0,0,30.49,0h8.22v-6.5ZM54,82.33A12.33,12.33,0,1,1,66.28,70,12.33,12.33,0,0,1,54,82.33Zm32.39,0A12.35,12.35,0,0,1,74,70.33c0-.1,0-.21,0-.32s0-.21,0-.31A12.33,12.33,0,1,1,86.35,82.33Z"/>
+    <path class="lava-brain-2" d="M74,69.7v.63c0-.1,0-.21,0-.32S74,69.8,74,69.7Z"/>
+    <circle class="lava-brain-3" cx="70" cy="70" r="65.85"/>
+    <circle class="lava-brain-4 brain-room-difficulty" cx="70" cy="70" r="65.85"  stroke-dasharray="413.538" stroke-dashoffset="165.4152" />
+    <!--HOW TO CALCULATE STROKE-DASHARRAY AND STROKE-DASHOFFSET-->
+    <!-- circumference = Math.PI*(radius*2);  (=413.538) -->
+    <!--  stroke-dasharray="{{circle.circumference}}"  -->
+    <!--  stroke-dashoffset="{{circle.circumference * (1 - circle.percentage/100)}}"-->
+    <!--
+    dif percent -> stroke-dashoffset
+    100% -> 0
+    80% -> 82.7076
+    60% -> 165.4152
+    40% -> 248.1228
+    20% -> 330.8304
+    10% -> 372.1842
+
+    -->
+
+</svg>

@@ -1,0 +1,1098 @@
+/* @media (max-width:1692px) {
+    .step_description {
+        width: 22%
+    }
+}
+
+@media (max-width:1570px) {
+    .step_description {
+        width: 24%
+    }
+} */
+
+@media (max-width: 1475px) {
+  /* .cube_steps {
+        width: 75%
+    }
+
+    .step {
+        width: 15%
+    } */
+
+  /* .step_description {
+        width: 26%
+    } */
+
+  .cubeChallengesBuilding {
+    width: 33%;
+  }
+}
+@media (max-width: 1434px) {
+  .form-container {
+    width: 43%;
+  }
+}
+@media (max-width: 1370px) {
+  .title {
+    margin-bottom: 50px;
+  }
+  #cube_experience .title {
+    margin-bottom: 50px;
+  }
+
+  /* .step_description {
+        width: 28%
+    } */
+
+  .cubeChallengesBuilding {
+    width: 37%;
+  }
+}
+
+@media (max-width: 1334px) {
+  .form-container {
+    width: 50%;
+  }
+  .form-container {
+    margin: 7% auto 0 5%;
+  }
+  .cubeVideo {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1235px) {
+  /* .step_description {
+        width: 30%
+    } */
+
+  /* .iAmCubioSlide {
+        height: 60vh
+    } */
+}
+
+@media (max-width: 1189px) {
+  .form-container {
+    width: 53%;
+  }
+
+  .cubeVideo {
+    width: 45%;
+  }
+
+  .cubeChallengesBuilding {
+    width: 40%;
+  }
+  #imageFallback {
+    bottom: 0 !important;
+  }
+
+  #imageFallback img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left: 50%;
+  }
+}
+@media (max-width: 1181px) {
+  .form-container {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  .cubeVideo {
+    width: 100%;
+  }
+  .cubeVideo video {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1156px) {
+  .exploreButton {
+    width: 160px;
+  }
+
+  /* .cube_steps {
+        width: 80%
+    } */
+
+  footer {
+    padding: 35px;
+    text-align: center;
+  }
+
+  /* .step_description {
+        width: 33%
+    } */
+}
+
+@media (max-width: 1083px) {
+  .people {
+    width: 35%;
+    margin-bottom: 10px;
+  }
+
+  .events {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+
+  .cubeChallengesBuilding {
+    width: 60%;
+  }
+
+  /* .cube_steps {
+        width: 100%
+    }
+
+    .step {
+        width: 15%;
+        margin-right: 15px
+    }
+
+    .step_description {
+        width: 35%
+    } */
+}
+
+@media (max-width: 989px) {
+  .titleWrapper {
+    height: 540px;
+  }
+
+  .titleWrapper .head-text h2 {
+    font-size: 1.5rem;
+  }
+
+  #whatIsCube {
+    height: 710px;
+  }
+
+  .joinButton {
+    width: 200px;
+  }
+
+  .cubeVideo {
+    width: 100%;
+  }
+
+  .cubeVideo video {
+    width: 60%;
+  }
+
+  #lname {
+    margin-right: 0;
+  }
+
+  .faqImage {
+    width: 32vw;
+  }
+
+  /* .step_description {
+        width: 38%
+    } */
+
+  .iAmCubioSlide {
+    height: 75vh;
+    /* left: 0; */
+    /* width: 63%; */
+    background-image: url(../img/home_page/cubioHello_mob.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 898px) {
+  .title h2 {
+    font-size: 2.5rem;
+  }
+
+  .title h3 {
+    font-size: 1.2rem;
+  }
+
+  .greenSeparator,
+  .redSeparator,
+  .yellowSeparator {
+    margin-top: 5px;
+    height: 16px;
+  }
+  /*
+    .step_description {
+        width: 40%
+    } */
+}
+
+@media (max-width: 883px) {
+  .faqImage {
+    width: 20vw;
+  }
+
+  .faqImage img {
+    width: 45%;
+  }
+  .difficultyLogo p {
+    font-size: 0.9rem;
+  }
+  /*
+    .step_description {
+        width: 43%
+    } */
+}
+@media (max-width: 880px) and (min-width: 699px) {
+  .content {
+    font-size: 15px;
+  }
+  .wrapper,
+  .wrapper_lottie {
+    width: 450px;
+    height: 450px;
+  }
+
+  .wrapped_svg_around1 {
+    left: 40.7%;
+  }
+
+  .wrapped_svg_around6 {
+    left: 39.2%;
+  }
+}
+@media (min-width: 810px) {
+  .form-lower textarea {
+    -webkit-clip-path: polygon(1% 0, 98.6% 0, 97% 100%, 2.5% 100%);
+    clip-path: polygon(1% 0, 98.6% 0, 97% 100%, 2.5% 100%);
+  }
+
+  #fname {
+    clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+    margin-right: 2px;
+  }
+
+  #lname {
+    -webkit-clip-path: polygon(1% 0, 100% 0, 98.8% 100%, 0 100%);
+    clip-path: polygon(1% 0, 100% 0, 98.8% 100%, 0 100%);
+  }
+
+  #email {
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-clip-path: polygon(0.5% 0, 99.3% 0, 98.7% 100%, 1% 100%);
+    clip-path: polygon(0.5% 0, 99.3% 0, 98.7% 100%, 1% 100%);
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 810px) {
+  .form-container {
+    clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 99% 100%, 1% 100%);
+    width: 80%;
+  }
+
+  .form-lower textarea {
+    margin-bottom: 55px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  #fname {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    margin-bottom: 5px;
+  }
+
+  #email,
+  #fname,
+  #lname {
+    width: 100%;
+  }
+
+  #email {
+    margin-bottom: 5px;
+  }
+
+  .error-message {
+    position: relative;
+  }
+
+  .submitButton {
+    margin: 0 auto;
+  }
+
+  #submit {
+    width: 125px;
+  }
+  .webp .cubeChallengesBuildingBackground,
+  .nowebp .cubeChallengesBuildingBackground {
+    background-image: url(../img/home_page/cubio_holding_mob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .cubeChallengesBuilding {
+    width: 62%;
+  }
+  .cubeChallengesBuilding img {
+    margin-top: 58vh;
+  }
+}
+
+@media (max-width: 770px) {
+  /* .step_description {
+        width: 47%
+    }
+
+    .step {
+        width: 31%;
+        margin-right: 2px
+    } */
+  #cube_experience .separatorDiv {
+    margin-bottom: 9%;
+  }
+
+  .content {
+    width: 70%;
+  }
+
+  .cubeChallengesBuildingBackground {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .cubeChallengesBuilding {
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 758px) {
+  /* .cubeReactMobile {
+        display: none;
+        height: 0
+    } */
+
+  /* .cubeDesktop {
+        display: block;
+        height: auto
+    } */
+
+  .gradientRed {
+    background-image: -o-linear-gradient(
+      rgba(255, 0, 73, 0),
+      rgba(255, 0, 73, 0.3),
+      rgba(255, 0, 73, 0.4),
+      rgba(255, 0, 73, 0.5),
+      rgba(255, 0, 73, 0.5),
+      rgba(255, 0, 73, 0.4),
+      rgba(255, 0, 73, 0)
+    );
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(255, 0, 73, 0)),
+      color-stop(rgba(255, 0, 73, 0.3)),
+      color-stop(rgba(255, 0, 73, 0.4)),
+      color-stop(rgba(255, 0, 73, 0.5)),
+      color-stop(rgba(255, 0, 73, 0.5)),
+      color-stop(rgba(255, 0, 73, 0.4)),
+      to(rgba(255, 0, 73, 0))
+    );
+    background-image: linear-gradient(
+      rgba(255, 0, 73, 0),
+      rgba(255, 0, 73, 0.3),
+      rgba(255, 0, 73, 0.4),
+      rgba(255, 0, 73, 0.5),
+      rgba(255, 0, 73, 0.5),
+      rgba(255, 0, 73, 0.4),
+      rgba(255, 0, 73, 0)
+    );
+  }
+
+  .gradientGreen {
+    background-image: -o-linear-gradient(
+      rgba(25, 218, 135, 0),
+      rgba(25, 218, 135, 0.3),
+      rgba(25, 218, 135, 0.4),
+      rgba(25, 218, 135, 0.5),
+      rgba(25, 218, 135, 0.5),
+      rgba(25, 218, 135, 0.4),
+      rgba(25, 218, 135, 0)
+    );
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(25, 218, 135, 0)),
+      color-stop(rgba(25, 218, 135, 0.3)),
+      color-stop(rgba(25, 218, 135, 0.4)),
+      color-stop(rgba(25, 218, 135, 0.5)),
+      color-stop(rgba(25, 218, 135, 0.5)),
+      color-stop(rgba(25, 218, 135, 0.4)),
+      to(rgba(25, 218, 135, 0))
+    );
+    background-image: linear-gradient(
+      rgba(25, 218, 135, 0),
+      rgba(25, 218, 135, 0.3),
+      rgba(25, 218, 135, 0.4),
+      rgba(25, 218, 135, 0.5),
+      rgba(25, 218, 135, 0.5),
+      rgba(25, 218, 135, 0.4),
+      rgba(25, 218, 135, 0)
+    );
+  }
+
+  .gradientYellow {
+    background-image: -o-linear-gradient(
+      rgba(249, 255, 0, 0),
+      rgba(249, 255, 0, 0.3),
+      rgba(249, 255, 0, 0.4),
+      rgba(249, 255, 0, 0.5),
+      rgba(249, 255, 0, 0.5),
+      rgba(249, 255, 0, 0.4),
+      rgba(249, 255, 0, 0)
+    );
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(249, 255, 0, 0)),
+      color-stop(rgba(249, 255, 0, 0.3)),
+      color-stop(rgba(249, 255, 0, 0.4)),
+      color-stop(rgba(249, 255, 0, 0.5)),
+      color-stop(rgba(249, 255, 0, 0.5)),
+      color-stop(rgba(249, 255, 0, 0.4)),
+      to(rgba(249, 255, 0, 0))
+    );
+    background-image: linear-gradient(
+      rgba(249, 255, 0, 0),
+      rgba(249, 255, 0, 0.3),
+      rgba(249, 255, 0, 0.4),
+      rgba(249, 255, 0, 0.5),
+      rgba(249, 255, 0, 0.5),
+      rgba(249, 255, 0, 0.4),
+      rgba(249, 255, 0, 0)
+    );
+    background-image: linear-gradient(
+      rgba(249, 255, 0, 0),
+      rgba(249, 255, 0, 0.3),
+      rgba(249, 255, 0, 0.4),
+      rgba(249, 255, 0, 0.5),
+      rgba(249, 255, 0, 0.5),
+      rgba(249, 255, 0, 0.4),
+      rgba(249, 255, 0, 0)
+    );
+  }
+
+  .gradientCube {
+    background-image: -o-linear-gradient(
+      rgba(46, 253, 219, 0),
+      rgba(46, 253, 219, 0.3),
+      rgba(46, 253, 219, 0.4),
+      rgba(46, 253, 219, 0.5),
+      rgba(46, 253, 219, 0.5),
+      rgba(46, 253, 219, 0.4),
+      rgba(46, 253, 219, 0)
+    );
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(46, 253, 219, 0)),
+      color-stop(rgba(46, 253, 219, 0.3)),
+      color-stop(rgba(46, 253, 219, 0.4)),
+      color-stop(rgba(46, 253, 219, 0.5)),
+      color-stop(rgba(46, 253, 219, 0.5)),
+      color-stop(rgba(46, 253, 219, 0.4)),
+      to(rgba(46, 253, 219, 0))
+    );
+    background-image: linear-gradient(
+      rgba(46, 253, 219, 0),
+      rgba(46, 253, 219, 0.3),
+      rgba(46, 253, 219, 0.4),
+      rgba(46, 253, 219, 0.5),
+      rgba(46, 253, 219, 0.5),
+      rgba(46, 253, 219, 0.4),
+      rgba(46, 253, 219, 0)
+    );
+  }
+}
+
+@media (max-width: 758px) {
+  .separatorDiv {
+    margin-bottom: 2%;
+  }
+
+  .card {
+    width: 450px;
+  }
+
+  #fname {
+    margin-bottom: 5px;
+    margin-right: 0;
+  }
+
+  #lname {
+    margin-right: 0;
+  }
+
+  .difficultyLogo {
+    margin: 0 35px;
+    width: 25%;
+  }
+
+  .break-row {
+    display: block;
+    height: 0;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+
+  .indexPageCategories {
+    margin: 15vh auto;
+  }
+
+  .people {
+    width: 45%;
+  }
+
+  .events {
+    width: 50%;
+  }
+}
+@media (max-width: 732px) {
+  .cubeReactMobile {
+    height: 72vh;
+  }
+}
+@media (max-width: 699px) and (min-width: 520px) {
+  .wrapper,
+  .wrapper_lottie {
+    width: 400px;
+    height: 400px;
+  }
+
+  .wrapped_svg_around1,
+  .wrapped_svg_around2,
+  .wrapped_svg_around3,
+  .wrapped_svg_around4,
+  .wrapped_svg_around5,
+  .wrapped_svg_around6 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .content {
+    font-size: 15px;
+  }
+}
+@media (max-width: 675px) {
+  .titleWrapper {
+    height: 400px;
+  }
+
+  .titleWrapper .head-text svg {
+    width: 70%;
+  }
+
+  .titleWrapper .head-text h2 {
+    font-size: 1rem;
+  }
+
+  #iAmCubio {
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+
+  .whatIsDescription {
+    font-size: 12px;
+  }
+
+  .whatIsSeparator {
+    height: 145px;
+    margin-top: 6px;
+  }
+
+  .whatIsCubeButton {
+    width: 150px;
+  }
+  .webp .cubeChallengesBuildingBackground,
+  .nowebp .cubeChallengesBuildingBackground {
+    height: 82vh;
+  }
+  .cubeChallengesBuilding {
+    width: 70% !important;
+  }
+  .cubeChallengesBuilding img {
+    margin-top: 50vh;
+  }
+
+  .copyright {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 621px) {
+  .greenSeparator {
+    margin-top: 8px;
+    height: 35px;
+  }
+  .error-message {
+    height: 20px;
+    margin-top: -25px;
+  }
+}
+
+@media (max-width: 600px) {
+  #contact-section {
+    margin: 15% auto -10% auto;
+  }
+
+  .difficultyLogo {
+    width: 25%;
+    margin: 0 25px;
+  }
+  .cubeVideo {
+    margin-bottom: 80px;
+  }
+  .iAmCubioSlide {
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .ticContainer {
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .letsPlay {
+    width: 68%;
+    top: -26px;
+    right: 21px;
+  }
+}
+@media (max-width: 587px) {
+  #whoCanPlay .redSeparator {
+    height: 60px;
+  }
+}
+
+@media (max-width: 565px) {
+  .indexPageCategories {
+    margin: 5vh auto;
+  }
+
+  .form-lower textarea,
+  .form-middle input,
+  .form-upper input {
+    font-size: 15px;
+  }
+
+  .iAmCubioImg {
+    width: 70%;
+  }
+  .webp .cubeChallengesBuildingBackground,
+  .nowebp .cubeChallengesBuildingBackground {
+    height: 70vh;
+  }
+  .cubeChallengesBuilding img {
+    margin-top: 45vh;
+  }
+}
+
+@media (max-width: 519px) {
+  .wrapper,
+  .wrapper_lottie {
+    width: 300px;
+    height: 300px;
+  }
+
+  .cubeReactMobile {
+    height: 50vh;
+  }
+
+  .wrapped_svg_around1,
+  .wrapped_svg_around2,
+  .wrapped_svg_around3,
+  .wrapped_svg_around4,
+  .wrapped_svg_around5,
+  .wrapped_svg_around6 {
+    width: 40px;
+    height: 40px;
+  }
+  .wrapped_svg_around1 {
+    left: 42.5%;
+  }
+
+  .content {
+    font-size: 11px;
+  }
+
+  .people {
+    width: 50%;
+  }
+
+  .specialEvents {
+    width: 80%;
+  }
+
+  .events {
+    width: 45%;
+  }
+
+  .cubeChallengesBuilding {
+    width: 65% !important;
+  }
+
+  .cubeChallengesBuilding img {
+    margin-top: 41vh;
+  }
+
+  .titleWrapper .head-text h2 {
+    font-size: 0.9rem;
+  }
+
+  .exploreButton {
+    margin-top: 35px;
+    width: 190px;
+  }
+
+  #categories {
+    height: 85vh;
+  }
+
+  .peopleToPlay,
+  .specialEvents {
+    margin: 59px auto 35px auto;
+  }
+
+  #contact-section {
+    margin: 5% auto -22% auto;
+  }
+
+  .joinButton {
+    margin: 30px auto 0 auto;
+  }
+
+  .location {
+    margin-top: 45px;
+  }
+
+  #faq {
+    margin-top: 55px;
+  }
+
+  #faq .title {
+    padding-bottom: 30px;
+  }
+
+  #accordion {
+    margin: 0 auto 35px auto;
+  }
+}
+
+@media (max-width: 495px) {
+  .titleWrapper .head-text svg {
+    width: 80%;
+  }
+
+  .titleWrapper {
+    position: relative;
+    background-image: url(../img/home_page/cover_image_mob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    animation: zoom 120s infinite;
+    -webkit-animation: zoom 120s infinite;
+    height: 100vh;
+  }
+
+  .exploreButton {
+    margin-top: 35px;
+  }
+
+  .title h2 {
+    font-size: 1.5em;
+    padding: 30px 0 5px 0;
+  }
+
+  .title h3 {
+    font-size: 0.9em;
+  }
+
+  .greenSeparator,
+  .redSeparator,
+  .yellowSeparator {
+    margin-top: 2px;
+    height: 14px;
+  }
+
+  #whoCanPlay .redSeparator {
+    margin-top: 4px;
+    height: 27px;
+  }
+
+  .whatIs {
+    width: 90%;
+  }
+  .whatIsSeparator {
+    height: 165px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .form-container {
+    width: 80%;
+    margin: 0 auto 40px auto;
+  }
+
+  input[text]::-webkit-input-placeholder {
+    padding: 15px 0;
+    line-height: 20px;
+  }
+
+  input[text]::-moz-placeholder {
+    padding: 15px 0;
+    line-height: 20;
+  }
+
+  input[text]:-ms-input-placeholder {
+    padding: 15px 0;
+    line-height: 20px;
+  }
+
+  input[text]:-moz-placeholder {
+    padding: 15px 0;
+    line-height: 20px;
+  }
+
+  #submit {
+    right: 0;
+  }
+
+  .card {
+    width: 310px;
+    left: 4px;
+  }
+
+  .card-header {
+    font-size: 12px;
+  }
+
+  .card-body {
+    font-size: 12px;
+  }
+
+  .card-link p {
+    font-size: 12px;
+    top: 12px;
+    right: 15px;
+  }
+
+  #faq2 {
+    left: 3px;
+  }
+
+  #faq3 {
+    left: 2px;
+  }
+
+  #faq4 {
+    left: 1px;
+  }
+
+  #faq5 {
+    left: 0;
+  }
+
+  .joinButton {
+    width: 155px;
+  }
+  #cube_experience .title {
+    margin-bottom: 40px;
+  }
+  .webp .cubeChallengesBuildingBackground,
+  .nowebp .cubeChallengesBuildingBackground {
+    height: 62vh;
+  }
+}
+
+@media (max-width: 470px) {
+  #whoCanPlay .greenSeparator {
+    margin-top: 6px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 463px) {
+  .cubeChallengesBuilding img {
+    margin-top: 35vh;
+  }
+}
+
+@media (max-width: 444px) {
+  #whoCanPlay .redSeparator {
+    height: 45px;
+  }
+
+  .iAmCubioSlide {
+    width: 100%;
+  }
+
+  .webp .cubeChallengesBuildingBackground,
+  .nowebp .cubeChallengesBuildingBackground {
+    height: 55vh;
+  }
+}
+
+@media (max-width: 413px) {
+  .whatIsSeparator {
+    height: 165px;
+    margin-top: 4px;
+  }
+}
+@media (max-width: 407px) {
+  .whatIsSeparator {
+    height: 185px;
+    margin-top: 4px;
+  }
+}
+@media (max-width: 398px) {
+  .whatIsSeparator {
+    height: 185px;
+  }
+
+  .cubeChallengesBuilding img {
+    margin-top: 31vh;
+  }
+  .wrapper,
+  .wrapper_lottie {
+    width: 250px;
+    height: 250px;
+  }
+  .wrapped_svg_around1,
+  .wrapped_svg_around2,
+  .wrapped_svg_around3,
+  .wrapped_svg_around4,
+  .wrapped_svg_around5,
+  .wrapped_svg_around6 {
+    width: 30px;
+    height: 30px;
+  }
+  .wrapped_svg_around1 {
+    left: 43%;
+  }
+  .wrapped_svg_around2,
+  .wrapped_svg_around5 {
+    right: -12%;
+  }
+  .wrapped_svg_around3,
+  .wrapped_svg_around4 {
+    left: -12%;
+  }
+  .wrapped_svg_around6 {
+    left: 42%;
+  }
+  .content {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 385px) {
+  .titleWrapper {
+    height: 100vh;
+  }
+
+  .webp .cubeChallengesBuildingBackground,
+  .nowebp .cubeChallengesBuildingBackground {
+    height: 50vh;
+  }
+
+  .cubeChallengesBuilding img {
+    margin-top: 30vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .form-container {
+    width: 85%;
+  }
+
+  #submit {
+    width: 100px;
+  }
+}
+
+@media (max-width: 370px) {
+  #whoCanPlay .redSeparator {
+    height: 60px;
+  }
+}
+
+@media (max-width: 357px) {
+  .cubeChallengesBuilding img {
+    margin-top: 27vh;
+  }
+}
+@media (max-width: 350px) {
+  .whatIsSeparator {
+    height: 205px;
+    margin-top: 4px;
+  }
+  .webp .cubeChallengesBuildingBackground,
+  .nowebp .cubeChallengesBuildingBackground {
+    height: 46vh;
+  }
+}
+@media (max-width: 326px) {
+  .whatIsSeparator {
+    height: 220px;
+    margin-top: 4px;
+  }
+}
+@media (max-width: 325px) {
+  .cubeChallengesBuildingBackground {
+    height: 49vh;
+  }
+}
+
+@media (max-width: 319px) {
+  .whatIsSeparator {
+    height: 225px;
+  }
+  .cubeReactMobile {
+    height: 40vh;
+  }
+  .wrapped_svg_around2,
+  .wrapped_svg_around5 {
+    right: -8%;
+  }
+  .wrapped_svg_around6 {
+    bottom: -16%;
+  }
+  .wrapped_svg_around1 {
+    top: -16%;
+  }
+  .wrapped_svg_around3,
+  .wrapped_svg_around4 {
+    left: -9%;
+  }
+}

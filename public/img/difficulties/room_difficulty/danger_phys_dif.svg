@@ -1,0 +1,39 @@
+<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 203.11">
+    <defs>
+        <style>.lava-phys-1{font-size:42.17px;font-family:TitilliumWeb;}.lava-phys-1,.lava-phys-2{fill:#fe0f4b;}.lava-phys-3{fill:none;stroke:#fe0f4b;stroke-miterlimit:10;stroke-width:6px;opacity:0.3;}
+            .lava-phys-4{
+            stroke-width:6px;
+            stroke:#fe0f4b;
+            stroke-linecap: round;
+            fill:none;
+            opacity:1;
+            -webkit-transform-origin: 50% 34.5%;
+            -ms-transform-origin: 50% 34.5%;
+            transform-origin: 50% 34.5%;
+            transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+            }
+        </style>
+    </defs>
+    <text class="lava-phys-1" transform="translate(25 198.77)">100%</text>
+    <polygon class="lava-phys-2"
+             points="58.38 110.07 70.22 96.03 72.41 93.44 101.3 62.02 63.51 65.14 81.62 30.15 67.59 46.78 38.7 78.19 74.93 75.08 58.38 110.07"/>
+    <circle class="lava-phys-3" cx="70" cy="70" r="65.85"/>
+    <circle class="lava-phys-4" cx="70" cy="70" r="65.85"  stroke-dasharray="413.538" stroke-dashoffset="0"/>
+    <!--HOW TO CALCULATE STROKE-DASHARRAY AND STROKE-DASHOFFSET-->
+    <!-- circumference = Math.PI*(radius*2);  (=413.538) -->
+    <!--  stroke-dasharray="{{circle.circumference}}"  -->
+    <!--  stroke-dashoffset="{{circle.circumference * (1 - circle.percentage/100)}}"-->
+    <!--
+    dif percent -> stroke-dashoffset
+    100% -> 0
+    80% -> 82.7076
+    60% -> 165.4152
+    40% -> 248.1228
+    20% -> 330.8304
+    10% -> 372.1842
+
+    -->
+
+</svg>

@@ -1,0 +1,345 @@
+[
+   {
+      "id": "lights_on",
+      "category": "skills",
+      "name": "Lights On",
+      "images": ["/img/room_img/Lights_On_1.jpg"],
+      "percentages": {
+         "physical": 60,
+         "brain": 60,
+         "skills": 100
+      }
+   },
+   {
+      "id": "subbuteo",
+      "category": "skills",
+      "name": "Subbuteo",
+      "images": [
+         "/img/room_img/subbuteo_1.jpg",
+         "/img/room_img/subbuteo_2.jpg"
+      ],
+      "percentages": {
+         "physical": 60,
+         "brain": 40,
+         "skills": 80
+      }
+   },
+   {
+      "id": "skeeball",
+      "category": "skills",
+      "name": "Skee Ball",
+      "images": [
+         "/img/room_img/Skee_Ball_1.jpg",
+         "/img/room_img/Skee_Ball_2.jpg"
+      ],
+      "percentages": {
+         "physical": 40,
+         "brain": 40,
+         "skills": 100
+      }
+   },
+   {
+      "id": "bubble_trouble",
+      "category": "skills",
+      "name": "Bubble Trouble",
+      "images": [
+         "/img/room_img/Bubble_Trouble_2.jpg",
+         "/img/room_img/Bubble_Trouble_1.jpg"
+      ],
+      "percentages": {
+         "physical": 60,
+         "brain": 60,
+         "skills": 80
+      }
+   },
+   {
+      "id": "target_8",
+      "category": "skills",
+      "name": "Target 8",
+      "images": [
+         "/img/room_img/Target_8_1.jpg",
+         "/img/room_img/Target_8_2.jpg"
+      ],
+      "percentages": {
+         "physical": 40,
+         "brain": 40,
+         "skills": 100
+      }
+   },
+   {
+      "id": "buzzer_beater",
+      "category": "skills",
+      "name": "Buzzer Beater",
+      "images": [
+         "/img/room_img/Buzzer_Beater_1.jpg",
+         "/img/room_img/Buzzer_Beater_2.jpg"
+      ],
+      "percentages": {
+         "physical": 60,
+         "brain": 40,
+         "skills": 80
+      }
+   },
+   {
+      "id": "knock_out",
+      "category": "physical",
+      "name": "Knock Out",
+      "images": ["/img/room_img/knock_out.jpg"],
+      "percentages": {
+         "physical": 80,
+         "brain": 60,
+         "skills": 80
+      }
+   },
+   {
+      "id": "restricted_area",
+      "category": "physical",
+      "name": "Restricted Area",
+      "images": [
+         "/img/room_img/restricted_area_1.jpg",
+         "/img/room_img/restricted_area_2.jpg"
+      ],
+      "percentages": {
+         "physical": 80,
+         "brain": 40,
+         "skills": 60
+      }
+   },
+   {
+      "id": "red_ropes_area",
+      "category": "physical",
+      "name": "Red Ropes Area",
+      "images": [
+         "/img/room_img/red_ropes_area.jpg",
+         "/img/room_img/Red_Ropes.jpg"
+      ],
+      "percentages": {
+         "physical": 80,
+         "brain": 40,
+         "skills": 60
+      }
+   },
+   {
+      "id": "gym_tonic",
+      "category": "physical",
+      "name": "Gym Tonic",
+      "images": [
+         "/img/room_img/gym_tonic_1.jpg",
+         "/img/room_img/gym_tonic_2.jpg"
+      ],
+      "percentages": {
+         "physical": 100,
+         "brain": 60,
+         "skills": 40
+      }
+   },
+   {
+      "id": "spot_the_differences",
+      "category": "brain",
+      "name": "Spot the Differences",
+      "images": [
+         "/img/room_img/Spot_The_Differences_1.jpg",
+         "/img/room_img/Spot_The_Differences_2.jpg"
+      ],
+      "percentages": {
+         "physical": 80,
+         "brain": 100,
+         "skills": 60
+      }
+   },
+   {
+      "id": "beat_the_bomb",
+      "category": "brain",
+      "name": "Beat the Bomb",
+      "images": [
+         "/img/room_img/beat_the_bomb_1.jpg",
+         "/img/room_img/beat_the_bomb_2.jpg"
+      ],
+      "percentages": {
+         "physical": 40,
+         "brain": 100,
+         "skills": 80
+      }
+   },
+   {
+      "id": "rainbow_mind",
+      "category": "brain",
+      "name": "Rainbow Mind",
+      "images": [
+         "/img/room_img/Rainbow_Mind_1.jpg",
+         "/img/room_img/rainbow_mind_2.jpg"
+      ],
+      "percentages": {
+         "physical": 20,
+         "brain": 100,
+         "skills": 60
+      }
+   },
+   {
+      "id": "genius",
+      "category": "brain",
+      "name": "Genius",
+      "images": ["/img/room_img/genius.jpg"],
+      "percentages": {
+         "physical": 40,
+         "brain": 100,
+         "skills": 40
+      }
+   },
+   {
+      "id": "pyramid_of_giza",
+      "category": "brain",
+      "name": "Pyramid of Giza",
+      "images": ["/img/room_img/pyramid_of_giza.jpg"],
+      "percentages": {
+         "physical": 80,
+         "brain": 100,
+         "skills": 60
+      }
+   },
+   {
+      "id": "seven_blocks",
+      "category": "skills",
+      "name": "7 Blocks",
+      "images": ["/img/room_img/7blocks.jpg"],
+      "percentages": {
+         "physical": 20,
+         "brain": 60,
+         "skills": 100
+      }
+   },
+   {
+      "id": "crystal_maze",
+      "category": "skills",
+      "name": "Crystal Maze",
+      "images": [
+         "/img/room_img/crystal_maze_1.jpg",
+         "/img/room_img/crystal_maze_2.jpg"
+      ],
+      "percentages": {
+         "physical": 60,
+         "brain": 80,
+         "skills": 100
+      }
+   },
+   {
+      "id": "slingshot_madness",
+      "category": "skills",
+      "name": "Slingshot Madness",
+      "images": [
+         "/img/room_img/slingshot_madness_1.jpg",
+         "/img/room_img/slingshot_madness_2.jpg"
+      ],
+      "percentages": {
+         "physical": 20,
+         "brain": 60,
+         "skills": 100
+      }
+   },
+   {
+      "id": "clef_de_sol",
+      "category": "brain",
+      "name": "Clef De Sol",
+      "images": [
+         "/img/room_img/clef_de_sol_1.jpg",
+         "/img/room_img/clef_de_sol_2.jpg"
+      ],
+      "percentages": {
+         "physical": 40,
+         "brain": 80,
+         "skills": 60
+      }
+   },
+   {
+      "id": "golden_gate_bridge",
+      "category": "physical",
+      "name": "Golden Gate Bridge",
+      "images": [
+         "/img/room_img/golden_gate_bridge_1.jpg",
+         "/img/room_img/golden_gate_bridge_2.jpg"
+      ],
+      "percentages": {
+         "physical": 80,
+         "brain": 80,
+         "skills": 60
+      }
+   },
+   {
+      "id": "lost_city",
+      "category": "physical",
+      "name": "Lost City",
+      "images": [
+         "/img/room_img/lostcity_1.jpg",
+         "/img/room_img/lostcity_2.jpg"
+      ],
+      "percentages": {
+         "physical": 100,
+         "brain": 80,
+         "skills": 60
+      }
+   },
+   {
+      "id": "speed_barrels",
+      "category": "physical",
+      "name": "Speed Barrels",
+      "images": [
+         "/img/room_img/speed_barrels_1.jpg",
+         "/img/room_img/speed_barrels_2.jpg"
+      ],
+      "percentages": {
+         "physical": 100,
+         "brain": 40,
+         "skills": 40
+      }
+   },
+   {
+      "id": "cardio",
+      "category": "physical",
+      "name": "Cardio",
+      "images": ["/img/room_img/cardio_1.jpg", "/img/room_img/cardio_2.jpg"],
+      "percentages": {
+         "physical": 100,
+         "brain": 40,
+         "skills": 80
+      }
+   },
+   {
+      "id": "lava_land",
+      "category": "physical",
+      "name": "Lava Land",
+      "images": ["/img/room_img/lava_land_1.jpg"],
+      "percentages": {
+         "physical": 80,
+         "brain": 60,
+         "skills": 40
+      }
+   },
+   {
+      "id": "color_twist",
+      "category": "skills",
+      "name": "Color Twist",
+      "images": [
+         "/img/room_img/color_twist_1.jpg",
+         "/img/room_img/color_twist_2.jpg"
+      ],
+      "percentages": {
+         "physical": 30,
+         "brain": 20,
+         "skills": 50
+      }
+   },
+   {
+      "id": "worlderland",
+      "category": "brain",
+      "name": "Worlderland",
+      "images": [
+         "/img/room_img/worlderland_1.jpg",
+         "/img/room_img/worlderland_2.jpg"
+      ],
+      "percentages": {
+         "physical": 10,
+         "brain": 70,
+         "skills": 20
+      }
+   }
+]

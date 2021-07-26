@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399.32 124.44">
+  <defs>
+    <style>.canYouWin-1{fill:none;}.canYouWin-2{clip-path:url(#clip-path);}.canYouWin-3,.canYouWin-4{fill:#2efddb;}.canYouWin-4{opacity:0.47;}
+
+.letsPlayText1Svg {
+    font-family:TitilliumWebBold;
+    font-size: 1.5rem;
+    fill: #343b42;
+    transform: translate(90px, 64px);
+    letter-spacing: 1px;
+    -webkit-transform: translate(90px, 64px);
+    -ms-transform: translate(90px, 64px);
+}
+
+.letsPlayText2Svg {
+    font-family:TitilliumWebBlack;
+    font-size: 1.5rem;
+    fill: #343b42;
+    transform: translate(42px, 95px);
+    -webkit-transform: translate(42px, 95px);
+    -ms-transform: translate(42px, 95px)
+}
+
+
+    </style>
+    <clipPath id="clip-path">
+      <polygon class="canYouWin-1" points="-1506.93 257.61 801.6 480.77 678.1 1433.95 -1575.43 1433.95 -1506.93 257.61"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g class="canYouWin-2">
+    </g>
+    <polygon class="canYouWin-3" points="137.84 121.34 367.2 122.74 396.83 10.11 36.5 10.11 9.95 121.34 90.69 121.34 137.84 121.34"/>
+    <polygon class="canYouWin-4" points="109.96 112.95 339.32 114.34 368.95 1.71 28.93 1.71 2.38 112.95 62.81 112.95 109.96 112.95"/>
+    <text class="letsPlayText1Svg" font-weight="bold" id="cubioWlc"> </text>
+    <text class="letsPlayText2Svg" font-weight="bold" id="cubioWlc1"></text>
+
+
+  </g>
+</svg>

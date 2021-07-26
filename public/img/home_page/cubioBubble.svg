@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 799.1 309.33">
+    <defs>
+        <style>
+
+        </style>
+        <clipPath id="clip-path">
+            <polygon class="cubeBubble1"
+                     points="-259.71 284.27 2048.82 507.43 1925.33 1460.62 -328.2 1460.62 -259.71 284.27"/>
+        </clipPath>
+    </defs>
+    <g  data-name="Layer 1">
+        <g class="cubeBubble2">
+            <image width="2000" height="2000" transform="matrix(1.15, 0.11, -0.11, 1.15, -243.12, 112.73)"/>
+        </g>
+        <polygon class="cubeBubble3"
+                 points="22.25 31.42 74.24 253.03 114 253.03 114 300.2 207.93 253.03 752.54 253.03 699.65 31.42 22.25 31.42"/>
+        <polygon class="cubeBubble4"
+                 points="35.88 16.02 87.87 237.63 127.63 237.63 127.63 284.8 221.56 237.63 766.17 237.63 713.28 16.02 35.88 16.02"/>
+        <text class="cubeBubble5" transform="translate(145.16 175.49)">I AM CUBIO</text>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748.14 291.88">
+	<defs>
+		<style>
+			.cls-1,.cls-2{fill:#2efddb;}.cls-2{opacity:0.47;}
+			@font-face {
+			font-family: TitilliumWebBlack;
+			src: url(../../vendor/TitilliumWeb/TitilliumWebBlack.ttf);
+			font-display: swap
+			}
+			.cubeBubble5 {
+			font-size: 6rem;
+			fill: #343b42;
+			font-family:TitilliumWebBlack;
+			font-weight: 900;
+			transform: translate(105px, 155px);
+			-webkit-transform: translate(105px, 155px);
+			-ms-transform: translate(105px, 155px)
+			}
+		</style>
+	</defs>
+	<g>
+		<polygon class="cls-1" points="745.58 18.68 693.6 240.29 229.61 240.29 136.22 287.46 135.68 240.29 15.29 240.29 68.19 18.68 745.58 18.68" />
+		<polygon class="cls-2" points="734.03 0 682.04 221.61 218.05 221.61 124.66 268.78 124.12 221.61 3.74 221.61 56.63 0 734.03 0" />
+		<text class="cubeBubble5" font-weight="bolder" transform="translate(145.16 175.49)">
+			HI! I'M CUBIO
+		</text>
+	</g>
+</svg>

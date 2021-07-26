@@ -1,0 +1,1241 @@
+@font-face {
+   font-family: TitilliumWebBlack;
+   src: url(../vendor/TitilliumWeb/TitilliumWebBlack.ttf);
+   font-display: swap;
+}
+
+@font-face {
+   font-family: TitilliumWeb;
+   src: url(../vendor/TitilliumWeb/TitilliumWeb-Regular.ttf);
+   font-display: swap;
+}
+
+html {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   -webkit-overflow-scrolling: touch;
+   overflow: -moz-scrollbars-none;
+   -webkit-text-size-adjust: 100%;
+}
+
+body,
+html,
+main {
+   height: 100%;
+   min-height: 100%;
+}
+
+body {
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   font-family: TitilliumWeb;
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+   -ms-overflow-style: none;
+   font-size: 1rem;
+   line-height: 1.5;
+   background-color: rgba(0, 255, 248, 0.05);
+   background-image: -o-radial-gradient(
+      circle,
+      #0c4d4e,
+      #064146,
+      #05353d,
+      #052933,
+      #061e28
+   ) !important;
+   background-image: radial-gradient(
+      circle,
+      #0c4d4e,
+      #064146,
+      #05353d,
+      #052933,
+      #061e28
+   ) !important;
+}
+
+body::-webkit-scrollbar {
+   width: 0;
+   background: 0 0;
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+* {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+a {
+   outline: 0;
+   text-decoration: none;
+}
+
+a,
+h1,
+h2,
+h3,
+p {
+   color: #fff;
+}
+
+h1,
+h2,
+h3,
+p {
+   font-family: TitilliumWeb;
+}
+
+h2 {
+   font-family: TitilliumWebBlack;
+   font-size: 3.5em;
+   text-transform: uppercase;
+}
+
+.allCategories {
+   width: 25%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   position: relative;
+   top: 150px;
+   margin: 0 auto;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-sizing: content-box;
+   box-sizing: content-box;
+   overflow-x: hidden;
+}
+
+.allCategories div {
+   margin: 0 auto;
+}
+
+.allCategories button {
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   overflow: hidden;
+   outline: 0 !important;
+}
+
+.roomBoxesContainer {
+   width: 100%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-line-pack: justify;
+   align-content: space-between;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   position: relative;
+   top: 200px;
+   margin-bottom: 5vh;
+}
+
+.roomBoxesContainer :last-child {
+   align-items: flex-start;
+}
+
+.roomsGrid {
+   width: 75%;
+   left: 0;
+   right: 0;
+   margin: 0 auto 200px auto;
+}
+
+.roomBoxParent {
+   width: 10vw;
+   min-height: 15vw;
+   position: relative;
+   margin: 0 5px 10px 5px;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   flex-direction: column;
+}
+
+.physicalHover:hover:after {
+   content: "";
+   display: block;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   border-radius: 10px;
+   border: 1.5px solid #ff0049;
+}
+
+.brainHover:hover:after {
+   content: "";
+   display: block;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   border-radius: 10px;
+   border: 1.5px solid #1dfe98;
+}
+
+.skillHover:hover:after {
+   content: "";
+   display: block;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   border-radius: 10px;
+   border: 1.5px solid #fff33e;
+}
+
+.lowerRoomBoxPart,
+.upperRoomBoxPart {
+   background-color: rgba(0, 255, 248, 0.05);
+   width: 100%;
+}
+
+.upperRoomBoxPart {
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   margin-bottom: 5px;
+}
+
+.roomBoxLogo {
+   padding: 15px 10px 10px 10px;
+}
+
+.roomBoxLogo img {
+   width: 100%;
+   height: auto;
+   vertical-align: middle;
+   border-style: none;
+}
+
+.lowerRoomBoxPart {
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.bigRoomTitle,
+.normalTitle,
+.veryBigRoomTitle {
+   color: #fff;
+   margin-bottom: 0;
+   padding: 0.8rem 0;
+   line-height: 20px;
+   text-transform: uppercase;
+   font-weight: 700;
+   text-align: center;
+   margin-top: 0;
+}
+
+.normalTitle {
+   font-size: 20px;
+}
+
+.veryBigRoomTitle {
+   font-size: 15px;
+}
+
+.bigRoomTitle {
+   font-size: 16px;
+}
+
+.roomBoxDif {
+   padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.roomBoxDif img {
+   padding: 0 0.5rem 5px 0.2rem;
+   width: 30%;
+}
+
+.firstHalfRoomPagePart,
+.secondHalfRoomPagePart {
+   outline: 0;
+   top: 0;
+   background-image: -o-radial-gradient(
+      circle,
+      #0c4d4e,
+      #064146,
+      #05353d,
+      #052933,
+      #061e28
+   ) !important;
+   background-image: radial-gradient(
+      circle,
+      #0c4d4e,
+      #064146,
+      #05353d,
+      #052933,
+      #061e28
+   ) !important;
+}
+
+.firstHalfRoomPagePart {
+   /* width: 80%; */
+   left: 0;
+   position: fixed;
+   top: 45px;
+   float: left;
+   height: 100vh;
+}
+
+.roomImage {
+   background-image: -o-radial-gradient(
+      circle,
+      #0c4d4e,
+      #064146,
+      #05353d,
+      #052933,
+      #061e28
+   ) !important;
+   background-image: radial-gradient(
+      circle,
+      #0c4d4e,
+      #064146,
+      #05353d,
+      #052933,
+      #061e28
+   ) !important;
+}
+
+.roomImage img {
+   max-width: 100vh;
+   height: auto;
+   object-fit: contain;
+}
+
+/* SLIDER */
+.slider {
+   /* width: 100vh; */
+   text-align: center;
+   overflow: hidden;
+   height: 100vh;
+}
+
+@keyframes tonext {
+   75% {
+      left: 0;
+   }
+
+   95% {
+      left: 100%;
+   }
+
+   98% {
+      left: 100%;
+   }
+
+   99% {
+      left: 0;
+   }
+}
+
+@keyframes tostart {
+   75% {
+      left: 0;
+   }
+
+   95% {
+      left: -300%;
+   }
+
+   98% {
+      left: -300%;
+   }
+
+   99% {
+      left: 0;
+   }
+}
+
+@keyframes snap {
+   96% {
+      scroll-snap-align: center;
+   }
+
+   97% {
+      scroll-snap-align: none;
+   }
+
+   99% {
+      scroll-snap-align: none;
+   }
+
+   100% {
+      scroll-snap-align: center;
+   }
+}
+
+.slides {
+   display: flex;
+   overflow-x: auto;
+   scroll-snap-type: x mandatory;
+   scroll-behavior: smooth;
+   -webkit-overflow-scrolling: touch;
+}
+
+.slides::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+   background: black;
+   border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+   background: transparent;
+}
+
+.slides > div {
+   scroll-snap-align: start;
+   flex-shrink: 0;
+   width: 100%;
+   height: 100vh;
+   border-radius: 10px;
+   background: #eee;
+   transform-origin: center center;
+   transform: scale(1);
+   transition: transform 0.5s;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 100px;
+}
+
+.controls {
+   bottom: 25px;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   right: 0;
+   width: 100%;
+}
+
+.controls a {
+   display: inline-flex;
+   width: 1.5rem;
+   height: 1.5rem;
+   background: rgba(0, 0, 0, 0.5);
+   text-decoration: none;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin: 0 0 0.5rem 0;
+   position: relative;
+}
+
+.active {
+   background: rgba(46, 253, 219, 1) !important;
+}
+
+.slider img,
+.roomImage img {
+   height: 100%;
+}
+
+.slider > a {
+   display: inline-flex;
+   width: 1.5rem;
+   height: 1.5rem;
+   background: white;
+   text-decoration: none;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   margin: 0 0 0.5rem 0;
+   position: relative;
+}
+
+.slider > a:active {
+   top: 1px;
+}
+
+.slider > a:focus {
+   background: #000;
+}
+.slider {
+   outline: 0;
+}
+
+.slick-dots li.slick-active button:before {
+   color: rgba(46, 253, 219, 1);
+}
+
+.slick-dots li button:before {
+   font-size: 40px;
+   color: rgba(46, 253, 219);
+   opacity: 0.6;
+}
+
+.slick-dots {
+   bottom: 3%;
+}
+
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+   .slider > a {
+      display: none;
+   }
+}
+
+/* END OF SLIDER */
+
+.slideInRight {
+   -webkit-animation-name: slideInRight;
+   animation-name: slideInRight;
+}
+
+@-webkit-keyframes slideInRight {
+   0% {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+   }
+
+   to {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+   }
+}
+
+@keyframes slideInRight {
+   0% {
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+   }
+
+   to {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+   }
+}
+
+.backArrow {
+   display: inline-block;
+   border-radius: 50%;
+   text-align: center !important;
+}
+
+.backArrow:hover .left {
+   border: 0.5em solid #fff;
+}
+
+.backArrow:hover .left:after {
+   border-top: 0.5em solid #fff;
+   border-right: 0.5em solid #fff;
+}
+
+.leftArrow {
+   display: inline-block;
+   width: 2.3em;
+   height: 2.3em;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   margin-left: 0.5em;
+   background-color: rgba(255, 255, 255, 0.3);
+   position: absolute;
+   top: 70px;
+   left: 2px;
+   z-index: 1099;
+}
+
+.leftArrow:after {
+   content: "";
+   display: inline-block;
+   margin-top: 0.7em;
+   margin-left: 0.4em;
+   width: 0.8em;
+   height: 0.8em;
+   border-top: 1px solid #fff;
+   border-right: 1px solid #fff;
+   -webkit-transform: rotate(-135deg);
+   -ms-transform: rotate(-135deg);
+   transform: rotate(-135deg);
+}
+
+.secondHalfRoomPagePart {
+   position: relative;
+   left: 0;
+   scrollbar-width: none;
+   /* Also needed to disable scrollbar Firefox */
+   -ms-overflow-style: none;
+   /* Disable scrollbar IE 10+ */
+   overflow-x: hidden;
+   float: right;
+   -webkit-box-shadow: 0 -2px 18px 0.5px #000;
+   box-shadow: 0 -2px 18px 0.5px #000;
+   text-align: left;
+   right: 30px;
+   height: 100%;
+   top: 30px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+   display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.example {
+   -ms-overflow-style: none;
+}
+
+.roomLogo {
+   position: relative;
+   float: right;
+   margin: 40px 70px 30px 35px;
+   -o-object-fit: contain;
+   object-fit: contain;
+}
+
+.roomLogo img {
+   max-width: 110px;
+}
+
+.roomName {
+   position: relative;
+   margin: 80px 10px 100px 0;
+   text-transform: uppercase;
+   text-align: right;
+}
+
+.roomName h1 {
+   font-family: TitilliumWebBlack;
+   font-size: 2.5em;
+   color: #fff;
+   line-height: 0.8;
+}
+
+.roomDescription {
+   width: 80%;
+   margin: 45px 0 120px 70px;
+}
+
+.roomDescription p {
+   color: #fff;
+   font-size: 18px;
+   font-weight: 400;
+   text-align: center;
+}
+
+.roomDifficulty {
+   margin: 40px auto 10px 5px;
+   position: relative;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   width: 100%;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+}
+
+.brainDifficulty,
+.physicalDifficulty,
+.skillDifficulty {
+   width: 73px;
+   margin: 53px 20px auto 24px;
+}
+
+.beforePhysicalProgressAnimation {
+   fill: none;
+   stroke: #fe0f4b;
+   stroke-width: 6px;
+   stroke-linecap: round;
+   stroke-miterlimit: 10;
+   opacity: 0.3;
+}
+
+.radialProgressPhysical {
+   fill: none;
+   stroke: #fe0f4b;
+   stroke-width: 6px;
+   stroke-linecap: round;
+   stroke-miterlimit: 10;
+   -webkit-transform-origin: 50% 34.5%;
+   -ms-transform-origin: 50% 34.5%;
+   transform-origin: 50% 34.5%;
+   transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+}
+
+.beforeBrainProgressAnimation {
+   fill: none;
+   stroke: #1dfe98;
+   stroke-width: 6px;
+   stroke-linecap: round;
+   stroke-miterlimit: 10;
+   opacity: 0.3;
+}
+
+.radialProgressBrain {
+   fill: none;
+   stroke: #1dfe98;
+   stroke-width: 6px;
+   stroke-linecap: round;
+   stroke-miterlimit: 10;
+   -webkit-transform-origin: 50% 34.5%;
+   -ms-transform-origin: 50% 34.5%;
+   transform-origin: 50% 34.5%;
+   transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+}
+
+.beforeSkillProgressAnimation {
+   fill: none;
+   stroke: #fff33e;
+   stroke-width: 6px;
+   stroke-linecap: round;
+   stroke-miterlimit: 10;
+   opacity: 0.3;
+}
+
+.radialProgressSkill {
+   fill: none;
+   stroke: #fff33e;
+   stroke-width: 6px;
+   stroke-linecap: round;
+   stroke-miterlimit: 10;
+   -webkit-transform-origin: 50% 34.5%;
+   -ms-transform-origin: 50% 34.5%;
+   transform-origin: 50% 34.5%;
+   transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+}
+
+.brain-room-difficulty {
+   transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+}
+
+.relevantRoomsContainer {
+   width: 100%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-line-pack: justify;
+   align-content: space-between;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   margin: 0 10px 10vh 5px;
+}
+
+@media (min-width: 2500px) {
+   .roomsGrid {
+      width: 55%;
+   }
+}
+
+@media (max-width: 1853px) {
+   .bigRoomTitle,
+   .normalTitle {
+      font-size: 17px;
+   }
+
+   .veryBigRoomTitle {
+      font-size: 13px;
+   }
+}
+
+@media (max-width: 1612px) {
+   .roomName h1 {
+      font-size: 2rem;
+   }
+}
+
+@media (max-width: 1603px) {
+   .bigRoomTitle,
+   .normalTitle {
+      font-size: 15px;
+   }
+
+   .veryBigRoomTitle {
+      font-size: 12px;
+   }
+   .brainDifficulty,
+   .physicalDifficulty,
+   .skillDifficulty {
+      width: 55px;
+      margin: 53px 10px auto 5px;
+   }
+}
+
+@media (max-width: 1542px) {
+   .bigRoomTitle,
+   .normalTitle {
+      font-size: 13px;
+   }
+   .roomDescription {
+      margin: 45px auto 120px auto;
+   }
+}
+
+@media (max-width: 1485px) {
+   .bigRoomTitle,
+   .normalTitle {
+      font-size: 11px;
+   }
+
+   .veryBigRoomTitle {
+      font-size: 11px;
+   }
+}
+
+@media (max-width: 1470px) {
+   .roomsGrid {
+      width: 65%;
+   }
+}
+
+@media (max-width: 1356px) {
+   .veryBigRoomTitle {
+      font-size: 9px;
+   }
+}
+
+@media (max-width: 1321px) {
+   .roomLogo {
+      margin-right: 45px;
+   }
+
+   .roomDescription {
+      margin-right: auto;
+      margin-left: auto;
+   }
+
+   .roomBoxParent {
+      width: 12vw;
+      min-height: 18vw;
+   }
+
+   .allCategories {
+      width: 35%;
+   }
+   .slider img,
+   .roomImage img {
+      max-width: 100vh;
+      object-fit: fill;
+   }
+}
+@media (max-width: 1250px) {
+   .roomName {
+      margin: 190px 10px 35px 0;
+   }
+   .roomDescription {
+      margin-bottom: 75px;
+   }
+}
+@media (max-width: 1115px) {
+   .brainDifficulty,
+   .physicalDifficulty,
+   .skillDifficulty {
+      margin: 40px 20px auto 5px;
+   }
+   .roomName {
+      margin: 45px auto 0 auto;
+      text-align: center;
+   }
+   .roomName h1 {
+      font-size: 1.5rem;
+   }
+   .roomLogo {
+      float: none;
+      margin: 40px auto 30px auto;
+      text-align: center;
+   }
+   .roomDifficulty {
+      margin: 0 auto 10px 5px;
+   }
+   .roomDescription {
+      margin-bottom: 45px;
+   }
+   .roomDescription p {
+      font-size: 15px;
+   }
+}
+@media (max-width: 1047px) {
+   .roomsGrid {
+      width: 75%;
+   }
+
+   .roomBoxParent {
+      width: 14vw;
+      min-height: 21vw;
+   }
+
+   .veryBigRoomTitle {
+      font-size: 11px;
+   }
+}
+
+@media (max-width: 1033px) {
+   .roomLogo {
+      margin-right: 15px;
+   }
+}
+
+@media (max-width: 998px) {
+   .roomsGrid {
+      width: 65%;
+   }
+}
+@media (max-width: 987px) {
+   .roomName h1 {
+      font-size: 1.8rem;
+   }
+
+   .allCategories {
+      width: 55%;
+   }
+}
+
+@media (max-width: 970px) {
+   .veryBigRoomTitle {
+      font-size: 10px;
+   }
+}
+
+@media (max-width: 967px) {
+   .roomLogo img {
+      max-width: 85px;
+   }
+}
+@media (max-width: 905px) {
+   .firstHalfRoomPagePart,
+   .secondHalfRoomPagePart {
+      left: 0;
+      right: 0;
+      width: 100%;
+      position: relative;
+   }
+
+   .firstHalfRoomPagePart {
+      top: 0;
+      height: 97vw;
+   }
+   .secondHalfRoomPagePart {
+      top: -15px;
+   }
+
+   .slick-dots {
+      width: 100vw;
+      bottom: 10%;
+   }
+
+   .slick-dots li button:before {
+      font-size: 36px;
+   }
+
+   .slick-dotted.slick-slider {
+      margin-bottom: 0;
+   }
+
+   .slider {
+      width: 100vw;
+      text-align: center;
+      overflow: hidden;
+      height: 100vw;
+   }
+
+   .slider img,
+   .roomImage img {
+      object-fit: fill;
+   }
+
+   .slides > div {
+      width: 100%;
+      height: 52vh;
+   }
+
+   .controls a {
+      width: 0.5rem;
+      height: 0.5rem;
+      margin: 0;
+   }
+
+   .secondHalfRoomPagePart {
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      bottom: 0;
+      text-align: center !important;
+   }
+
+   .slick-dots li {
+      margin: 0 5px 0 5px;
+      width: 14px;
+      height: 14px;
+   }
+
+   .roomLogo {
+      margin: 45px auto 30px auto;
+      -o-object-fit: contain;
+      object-fit: contain;
+      float: none;
+   }
+
+   .roomName {
+      margin: 45px auto 30px auto;
+      text-align: center;
+   }
+
+   .roomName h1 {
+      font-size: 2.5em;
+   }
+
+   .roomDifficulty {
+      margin: 40px auto 13px auto;
+      width: 45%;
+   }
+
+   .brainDifficulty,
+   .physicalDifficulty,
+   .skillDifficulty {
+      width: 110px;
+      margin: 0 30px;
+   }
+
+   .brain-room-difficulty {
+      transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+   }
+
+   .roomDescription {
+      width: 100%;
+      margin: 0 auto 43px auto;
+      padding: 0 20px;
+   }
+
+   .roomDescription p {
+      font-size: 14px;
+   }
+
+   .relevantRoomsContainer {
+      margin-bottom: 10vh;
+   }
+}
+@media (max-width: 882px) {
+   .veryBigRoomTitle {
+      font-size: 9px;
+   }
+}
+
+@media (max-width: 850px) {
+   .roomsGrid {
+      width: 75%;
+   }
+
+   .roomBoxParent {
+      width: 23vw;
+      min-height: 34.5vw;
+   }
+
+   .bigRoomTitle,
+   .normalTitle {
+      font-size: 1rem;
+   }
+
+   .veryBigRoomTitle {
+      font-size: 1rem;
+   }
+}
+
+@media (max-width: 794px) {
+   .bigRoomTitle,
+   .normalTitle {
+      font-size: 0.8rem;
+   }
+
+   .veryBigRoomTitle {
+      font-size: 0.7rem;
+   }
+}
+
+@media (max-width: 770px) {
+   .allCategories {
+      width: 60%;
+   }
+}
+@media (max-height: 768px) and (min-height: 600px) {
+   .roomImage img {
+      min-width: 100%;
+   }
+}
+@media (max-width: 750px) {
+   .roomDifficulty {
+      margin: 0px auto 13px auto;
+      width: 40%;
+   }
+   .brainDifficulty,
+   .physicalDifficulty,
+   .skillDifficulty {
+      width: 90px;
+      margin: 25px 5px auto 24px;
+   }
+
+   .skillDifficulty {
+      margin-right: 15px;
+   }
+
+   .roomName h1 {
+      font-size: 2.5rem;
+   }
+}
+
+@media (max-width: 660px) {
+   .roomLogo {
+      margin-right: 15px;
+   }
+}
+
+@media (max-width: 601px) {
+   .bigRoomTitle,
+   .normalTitle {
+      font-size: 0.6rem;
+   }
+
+   .veryBigRoomTitle {
+      font-size: 0.6rem;
+   }
+}
+
+@media (max-width: 513px) {
+   .veryBigRoomTitle {
+      font-size: 0.5rem;
+   }
+}
+
+@media (max-width: 576px) {
+   .roomDifficulty {
+      width: 55%;
+   }
+
+   .allCategories {
+      width: 75%;
+   }
+}
+
+@media (max-width: 510px) {
+   .roomsGrid {
+      width: 95%;
+   }
+
+   .roomBoxParent {
+      width: 45vw;
+      min-height: 67.5vw;
+   }
+
+   .bigRoomTitle,
+   .normalTitle {
+      font-size: 1rem;
+   }
+
+   .veryBigRoomTitle {
+      font-size: 1rem;
+   }
+}
+
+@media (max-width: 439px) {
+   .veryBigRoomTitle {
+      font-size: 0.8rem;
+   }
+
+   .allCategories {
+      width: 100%;
+   }
+}
+
+@media (max-width: 414px) {
+   .brainDifficulty,
+   .physicalDifficulty,
+   .skillDifficulty {
+      width: 50px;
+      margin: 0 15px;
+   }
+
+   .roomsGrid {
+      width: 92%;
+   }
+
+   .roomBoxName {
+      margin: 0 auto 67px auto;
+   }
+
+   .roomBoxParent {
+      width: 43vw;
+      min-height: 64.5vw;
+   }
+
+   .roomBoxDif {
+      width: 100%;
+   }
+}
+
+@media (max-width: 380px) {
+   .roomsGrid {
+      margin-bottom: 10vh;
+   }
+
+   .normalTitle.bigRoomTitle {
+      font-size: 0.8rem;
+   }
+
+   .roomDifficulty {
+      width: 100%;
+   }
+}
+
+@media (max-width: 364px) {
+   .roomName h1 {
+      font-size: 2em;
+      line-height: 1;
+   }
+
+   .bigRoomTitle,
+   .normalTitle,
+   .veryBigRoomTitle {
+      font-size: 0.7rem;
+   }
+}
+
+@media (max-width: 333px) {
+   .roomsGrid {
+      width: 100%;
+      margin-left: 15px;
+   }
+}
+
+@media (max-width: 301px) {
+   .bigRoomTitle,
+   .normalTitle,
+   .veryBigRoomTitle {
+      font-size: 0.6rem;
+   }
+}

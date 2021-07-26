@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important
+}
+
+body {
+    background-image: radial-gradient(#0e272c 5%, #000f1e)
+}
+
+.App {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.wrapper {
+    position: relative;
+    width: 700px;
+    height: 700px
+}
+
+.wrapped_lottie {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    transform: scale(.8)
+}
+
+.wrapped_svg_around1 {
+    top: -11%;
+    left: 44.5%
+}
+
+.wrapped_svg_around1,
+.wrapped_svg_around2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    cursor: pointer
+}
+
+.wrapped_svg_around2 {
+    top: 16%;
+    right: -5%
+}
+
+.wrapped_svg_around3 {
+    top: 16%
+}
+
+.wrapped_svg_around3,
+.wrapped_svg_around4 {
+    position: absolute;
+    left: -5%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer
+}
+
+.wrapped_svg_around4 {
+    top: 75%
+}
+
+.wrapped_svg_around5 {
+    top: 75%;
+    right: -5%
+}
+
+.wrapped_svg_around5,
+.wrapped_svg_around6 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    cursor: pointer
+}
+
+.wrapped_svg_around6 {
+    bottom: -11%;
+    left: 44.5%
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    color: #fff !important;
+    font-size: 14px;
+    width: 45%;
+    height: 55%;
+    z-index: 99999999 !important
+}
+
+@media (max-width:880px) and (min-width:699px) {
+
+    .wrapper,
+    .wrapper_lottie {
+        width: 550px;
+        height: 550px
+    }
+
+    .wrapped_svg_around1 {
+        left: 43.7%
+    }
+
+    .wrapped_svg_around6 {
+        left: 43.2%
+    }
+}
+
+@media (max-width:699px) and (min-width:520px) {
+
+    .wrapper,
+    .wrapper_lottie {
+        width: 400px;
+        height: 400px
+    }
+
+    .wrapped_svg_around1,
+    .wrapped_svg_around2,
+    .wrapped_svg_around3,
+    .wrapped_svg_around4,
+    .wrapped_svg_around5,
+    .wrapped_svg_around6 {
+        width: 30px;
+        height: 30px
+    }
+
+    .content {
+        font-size: 12px
+    }
+}
+
+@media (max-width:519px) {
+
+    .wrapper,
+    .wrapper_lottie {
+        width: 250px;
+        height: 250px
+    }
+
+    .wrapped_svg_around1,
+    .wrapped_svg_around2,
+    .wrapped_svg_around3,
+    .wrapped_svg_around4,
+    .wrapped_svg_around5,
+    .wrapped_svg_around6 {
+        width: 18px;
+        height: 18px
+    }
+
+    .content {
+        font-size: 8px
+    }
+}
+
+.fade-in {
+    -webkit-animation: fade-in 1.5s cubic-bezier(.39, .575, .565, 1) both;
+    animation: fade-in 1.5s cubic-bezier(.39, .575, .565, 1) both
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 1
+    }
+
+    35% {
+        opacity: 0
+    }
+
+    65% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 1
+    }
+
+    35% {
+        opacity: 0
+    }
+
+    65% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/*# sourceMappingURL=main.f825934e.chunk.css.map */

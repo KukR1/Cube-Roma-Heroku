@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 203.11">
+    <defs>
+        <style>.physical-1{font-size:42.17px;font-family:"Titillium Web", sans-serif;}
+            .physical-1,.physical-3{fill:#fe0f4b;}
+        </style>
+    </defs>
+    <text class="physical-1" id="physicalDifficultyPercent" transform="translate(34.58 198.77)">0%</text>
+    <polygon class="physical-3"
+             points="58.38 110.07 70.22 96.03 72.41 93.44 101.3 62.02 63.51 65.14 81.62 30.15 67.59 46.78 38.7 78.19 74.93 75.08 58.38 110.07"/>
+    <circle class="beforePhysicalProgressAnimation" cx="70" cy="70" r="65.85"/>
+    <circle class="radialProgressPhysical" id="physicalCircle" cx="70" cy="70" r="65.85"/>
+</svg>

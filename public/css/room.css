@@ -1,0 +1,138 @@
+body,
+html,
+main {
+   height: 100%;
+   min-height: 100%;
+}
+
+.secondHalfRoomPagePart {
+   width: 1250px;
+}
+.roomLogoName {
+   margin-top: 20px;
+   text-align: right;
+}
+.roomLogoName img {
+   width: 150px;
+   height: auto;
+}
+.roomLogoName h1 {
+   text-transform: uppercase;
+   font-family: "Orbitron", sans-serif;
+   color: rgb(245, 245, 245);
+}
+#room_card {
+   border: 2px solid #babdb9;
+   border-radius: 10px;
+   width: 18rem;
+   height: 20rem;
+   opacity: 0.9;
+}
+#room_card:hover {
+   border: 2px solid #07cdff;
+   transform: scale(1.1);
+   opacity: 1;
+   -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+   -ms-transition: all 0.2s ease-in;
+   -o-transition: all 0.2s ease-in;
+   transition: all 0.2s ease-in;
+   box-shadow: 0 10px 20px rgba(204, 25, 25, 0.034),
+      0 30px 40px rgba(6, 248, 236, 0);
+}
+
+.roomImages {
+   width: 1320px;
+   height: auto;
+}
+.card-img-top {
+   width: 160px;
+   height: 15vw;
+   object-fit: cover;
+   display: block;
+   margin: 10px auto;
+}
+.card-deck {
+   margin-left: 10px;
+}
+.room_perc li {
+   margin: 0 10px;
+}
+.room_perc img {
+   width: 50px;
+   height: auto;
+}
+.room_perc {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   padding: 0;
+}
+.room_perc p {
+   position: absolute;
+   margin: 5px 13px;
+}
+.card-title {
+   text-align: center;
+   font-size: 17px;
+}
+#room_desc {
+   padding: 30px;
+   text-align: center;
+   margin: 0 auto;
+   max-width: 70%;
+}
+.roomDifficulty p {
+   padding: 0 20px;
+   margin: 5px auto;
+}
+@media screen and (max-width: 768px) {
+   .firstHalfRoomPagePart img {
+      max-width: 100%;
+      height: auto;
+   }
+   .secondHalfRoomPagePart {
+      width: 100vw;
+      height: 100vh;
+   }
+   .roomLogoName img,
+   h1 {
+      margin-left: auto;
+      margin-right: auto;
+      display: table;
+      font-size: 25px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+   .roomDifficulty img {
+      width: 50px;
+   }
+   .card-deck #room_card {
+      width: 200px;
+      height: 200px;
+   }
+   .card-img-top {
+      width: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+   }
+   .card-title {
+      font-size: 17px;
+      margin-top: -10px;
+   }
+   .room_perc img {
+      width: 35px;
+      text-align: center;
+   }
+   .room_perc {
+      margin: 0;
+      padding: 0;
+   }
+   #room_desc {
+      padding: 30px;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 100%;
+   }
+}
