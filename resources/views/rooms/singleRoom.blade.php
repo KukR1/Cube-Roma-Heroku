@@ -28,8 +28,25 @@ $current_path = '/';
 
 <body>
     <main>
+    
         <div class="firstHalfRoomPagePart">
-        <img class ="roomImages" src=" {{ $room_data ->images[0]}}" />
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-touch="true">
+            <div class="carousel-inner">
+                @foreach($room_data->images as $key=>$url)
+              <div class="carousel-item {{$key == 0 ? 'active' : '' }}">
+                <img src="{{ $url}}" class="d-block roomImages" alt="Carousel">
+              </div>
+              @endforeach
+            </div>
+            <a class="carousel-control-prev" id="prevBtn" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="{{-- carousel-control-prev-icon --}}" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" id="nextBtn" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="{{-- carousel-control-next-icon --}}" aria-hidden="true"></span>   
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
 </div>
         <div class="secondHalfRoomPagePart">
 
@@ -41,17 +58,17 @@ $current_path = '/';
             <div class="roomDifficulty">
                 <div class="physicalDifficulty">
                     <img src="/img/difficulties/physical_cube.svg" alt="physical" />
-                   <p> {{ $room_data->percentages->physical }} </p> 
+                   <p id="phycs"> {{ $room_data->percentages->physical }}%</p> 
                 </div>
                 
                 <div class="brainDifficulty">
                     <img src="/img/difficulties/brain_cube.svg" alt="brain" />
-                    <p>  {{ $room_data->percentages->brain }}</p>
+                    <p id="brains">  {{ $room_data->percentages->brain }}%</p>
                 </div>
 
                 <div class="skillDifficulty">
                     <img src="/img/difficulties/skills_cube.svg" alt="skills" />
-                    <p>   {{ $room_data->percentages->skills }}</p>
+                    <p id="skill">   {{ $room_data->percentages->skills }}%</p>
                 </div>
                 
             </div>

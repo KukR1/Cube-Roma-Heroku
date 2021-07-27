@@ -27,6 +27,7 @@ $current_path = '/';
 @section('title', ' Challenges')
 
 <main>
+   
 <div class="allCategories"></div>
     <!--Rooms Section-->
     <div class="container">

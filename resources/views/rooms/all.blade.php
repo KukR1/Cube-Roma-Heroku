@@ -24,29 +24,28 @@ $current_path = '/';
 @endphp
 @extends('layouts.default')
 @section('content')
-@section('title', 'All Challenges')
+@section('title', ' Challenges')
 
 <main>
-    
+   
     <div class="allCategories">
-        
         <div>
-            <button data-filter="physical">
+            <button data-sort="physical" onclick="filterCards('physical')">
                 <img src="/img/difficulties/physical_cube.svg" alt="thunder">
             </button>
         </div>
         <div>
-            <button data-filter="brain">
+            <button data-sort="brain" onclick="filterCards('brain')">
                 <img src="/img/difficulties/brain_cube.svg" alt="glasses">
             </button>
         </div>
         <div>
-            <button data-filter="skill">
+            <button data-sort="skill" onclick="filterCards('skills')">
                 <img src="/img/difficulties/skills_cube.svg" alt="glasses">
             </button>
         </div>
         <div>
-            <button data-filter="*">
+            <button data-sort="*" onclick="filterCards('')">
                 <img src="/img/difficulties/all_cube.svg" alt="stack">
             </button>
         </div>
@@ -54,14 +53,15 @@ $current_path = '/';
 
 
         <!--Rooms Section-->
-        <div class="container" >
-            <div class="row" style="margin-top: 200px">
+        <div  class="container" >
+      
+            <div id="card-wrap" class="row" style="margin-top: 200px">
  
                 @foreach ($room_data as $r)
 
-                <div class="col-md-6 col-lg-3 " data-category="{{ $r->category }}">
+                <div class="col-md-6 col-lg-3 card-wrapper" data-category="{{ $r->category }}">
                     <div class="card-deck" style="margin: 0">
-                        <div id="room_card"class="card mb-4 flex-fill">
+                        <div id="room_card" class="card mb-4 flex-fill">
                             <img class="card-img-top" src="/img/room_logos/{{ $r->id }}.png" />
                             <div class="card-body" style="">
                                 <h5 class="card-title">{{ $r->name }}</h5>
@@ -85,9 +85,8 @@ $current_path = '/';
                 @endforeach
 
             </div>
-
+  
         </div>
 
     </main>
-
-@endsection
+    @endsection

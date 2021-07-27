@@ -4,7 +4,6 @@ main {
    height: 100%;
    min-height: 100%;
 }
-
 .secondHalfRoomPagePart {
    width: 1250px;
 }
@@ -28,19 +27,20 @@ main {
    height: 20rem;
    opacity: 0.9;
 }
-#room_card:hover {
-   border: 2px solid #07cdff;
-   transform: scale(1.1);
-   opacity: 1;
-   -webkit-transition: all 0.2s ease-in;
-   -moz-transition: all 0.2s ease-in;
-   -ms-transition: all 0.2s ease-in;
-   -o-transition: all 0.2s ease-in;
-   transition: all 0.2s ease-in;
-   box-shadow: 0 10px 20px rgba(204, 25, 25, 0.034),
-      0 30px 40px rgba(6, 248, 236, 0);
+@media (any-hover: hover) and (any-pointer: fine) {
+   #room_card:hover {
+      border: 2px solid #07cdff;
+      transform: scale(1.1);
+      opacity: 1;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      box-shadow: 0 10px 20px rgba(204, 25, 25, 0.034),
+         0 30px 40px rgba(6, 248, 236, 0);
+   }
 }
-
 .roomImages {
    width: 1320px;
    height: auto;
@@ -83,36 +83,102 @@ main {
    max-width: 70%;
 }
 .roomDifficulty p {
-   padding: 0 20px;
+   padding: 0 15px;
    margin: 5px auto;
+}
+#card-wrap.animating {
+   animation: fadein 0.8s;
+}
+@keyframes fadein {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
+.roomDifficulty #phycs,
+#brains,
+#skill {
+   font-weight: 900;
+   font-size: 1.5em;
+}
+#phycs {
+   color: #bc1047;
+}
+#brains {
+   color: #14af74;
+}
+#skill {
+   color: #f9ff00;
+}
+#prevBtn {
+   margin: 0;
+}
+#nextBtn {
+   padding: 220px;
+}
+@media only screen and (min-width: 1200px) {
+   #prevBtn {
+      margin: 0;
+   }
+   #nextBtn {
+      padding: 400px;
+   }
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+   .roomImages {
+      width: 920px;
+      height: 1100px;
+   }
+   .secondHalfRoomPagePart {
+      width: 1000px;
+   }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+   .roomImages {
+      width: 100%;
+      height: auto;
+   }
+   .secondHalfRoomPagePart {
+      width: 800px;
+   }
 }
 @media screen and (max-width: 768px) {
    .firstHalfRoomPagePart img {
       max-width: 100%;
       height: auto;
+      margin-top: 50px;
    }
    .secondHalfRoomPagePart {
       width: 100vw;
       height: 100vh;
+      margin-top: 70px;
+      z-index: 100;
    }
    .roomLogoName img,
    h1 {
       margin-left: auto;
       margin-right: auto;
       display: table;
-      font-size: 25px;
+      font-size: 23px;
       margin-top: 20px;
       margin-bottom: 20px;
+   }
+   .roomDifficulty p {
+      padding: 0;
    }
    .roomDifficulty img {
       width: 50px;
    }
-   .card-deck #room_card {
+   #room_card {
       width: 200px;
-      height: 200px;
+      height: 220px;
+      margin: 0 auto;
    }
    .card-img-top {
-      width: 60px;
+      width: 80px;
+      height: auto;
       margin-left: auto;
       margin-right: auto;
       margin-top: 10px;
@@ -125,14 +191,21 @@ main {
       width: 35px;
       text-align: center;
    }
-   .room_perc {
-      margin: 0;
-      padding: 0;
+   .room_perc p {
+      margin: 0 10px;
+      padding-top: 5px;
    }
    #room_desc {
-      padding: 30px;
+      padding: 20px;
       text-align: center;
       margin: 0 auto;
       max-width: 100%;
+      font-size: 18px;
+   }
+   #prevBtn {
+      padding: 0;
+   }
+   #nextBtn {
+      padding: 0;
    }
 }

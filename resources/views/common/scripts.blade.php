@@ -16,6 +16,7 @@
 <script type="text/javascript" src="/js/slick.min.js"></script>
 <script src="/js/cubeRoomsData.js"></script>
 <script src="/js/categoryPage.js" async></script>
+<script src="/js/filterCards.js" async></script>
 
 
 
