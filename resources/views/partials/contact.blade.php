@@ -11,7 +11,7 @@ $current_path = substr($current_path, 3);
    $current_path = substr($current_path, 3);
 }elseif ($url_locale ==='/de') {
    $current_path = substr($current_path, 3);
-}elseif ($url_locale ==='/it') {
+}elseif ($url_locale ==='/en') {
    $current_path = substr($current_path, 3);
 }/* else{
     return $current_path;

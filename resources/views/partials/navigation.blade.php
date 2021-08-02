@@ -11,7 +11,7 @@ $current_path = substr($current_path, 3);
    $current_path = substr($current_path, 3);
 }elseif ($url_locale ==='/de') {
    $current_path = substr($current_path, 3);
-}elseif ($url_locale ==='/it') {
+}elseif ($url_locale ==='/en') {
    $current_path = substr($current_path, 3);
 }/* else{
     return $current_path;
@@ -66,7 +66,7 @@ $current_path = '/';
                     <img src="/img/globe-left.svg" alt="" />
                  </div>
                  <div class="inner">
-                    <a href="{{$current_path}}">
+                    <a href="/en{{$current_path}}">
                        <img
                           src="{{'/img/en.svg' }}"
                           alt="english flag"
@@ -84,7 +84,7 @@ $current_path = '/';
                           alt="spanish flag"
                        />
                     </a>
-                      <a href="/it{{$current_path}}">
+                      <a href="{{$current_path}}">
                        <img
                           src="/img/it.svg"
                           alt="italian flag"
