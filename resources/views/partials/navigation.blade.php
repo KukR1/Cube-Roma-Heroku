@@ -39,26 +39,7 @@ $current_path = '/';
         </div>
      
         <div class="sidenav">
-           {{-- <div class="flags">
-               <a href="http://cube-koeln.com/fr/">
-                   <img src="http://cube-koeln.com/img/fr.svg" alt="french flag" />
-               </a>
-               <a href="http://cube-koeln.com/de/">
-                   <img src="http://cube-koeln.com/img/de.svg" alt="german flag" />
-               </a>
-               <a href="http://cube-koeln.com/es/">
-                   <img
-                       src="http://cube-koeln.com/img/es.svg"
-                       alt="spanish flag"
-                   />
-               </a>
-               <a href="http://cube-koeln.com/it/">
-                   <img
-                       src="http://cube-koeln.com/img/it.svg"
-                       alt="spanish flag"
-                   />
-               </a>
-           </div> --}}
+        
      
            <div class="language-selection">
               <div class="flags-container">
@@ -132,7 +113,7 @@ $current_path = '/';
               </li>
               <li>
                  <a
-                    href="http://cube-koeln.com/measures-n-restrictions"
+                    href="{{$url_locale}}/measures-restrictions"
                     class="nav-links"
                     >{{ trans('messages.menu_5')}}</a
                  >
@@ -149,7 +130,7 @@ $current_path = '/';
               <a href="{{$url_locale}}/"
                  ><img
                     id="cube"
-                    src="http://cube-koeln.com/img/home_page/menu_logo.svg"
+                    src="/img/home_page/menu_logo.svg"
                     alt="cube challenges logo"
               /></a>
            </div>

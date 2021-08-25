@@ -51,7 +51,7 @@ $current_path = '/';
         <div class="secondHalfRoomPagePart">
 
             <div class="roomLogoName">
-                <h1>{{ $room_data->name }}<img src="/img/room_logos/{{ $room_data->id }}.png"></h1></img>
+                <h1>{{ $room_data->name }}<img src="/img/room_logos/{{ $room_data->id }}.png" alt="Room image"></h1></img>
                 
             </div>
 
@@ -86,7 +86,7 @@ $current_path = '/';
                 <div class="col-md-6 col-lg-4 col-12">
                 <div class="card-deck">
                 <div id="room_card" class="card mb-4 flex-fill">
-                    <img class="card-img-top" src="/img/room_logos/{{ $r->id }}.png"  />
+                    <img class="card-img-top" src="/img/room_logos/{{ $r->id }}.png"  alt="Room logo" />
                     <div class="card-body" style="">
     <h5 class="card-title">{{ $r->name }}</h5>
     <ul class="room_perc">

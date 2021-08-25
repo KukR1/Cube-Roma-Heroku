@@ -30,14 +30,14 @@ $current_path = '/';
         <div class="form-container">
             <form method="post" role="form" onsubmit="return validateForm()">
                 <div class="form-upper">
-                    <input type="text" id="fname" name="firstname" placeholder="name" class="form-input" onfocus="this.placeholder = ''" onblur="this.placeholder = 'name'">
-                    <input type="text" id="lname" name="lastname" placeholder="surname" class="form-input" onfocus="this.placeholder = ''" onblur="this.placeholder = 'surname'">
+                    <input type="text" id="fname" name="firstname" placeholder="Name" class="form-input" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'">
+                    <input type="text" id="lname" name="lastname" placeholder="Surname" class="form-input" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Surname'">
                 </div>
                 <div class="form-middle">
-                    <input type="email" id="email" name="email" placeholder="email" class="form-input" onfocus="this.placeholder = ''" onblur="this.placeholder = 'email'">
+                    <input type="email" id="email" name="email" placeholder="Email" class="form-input" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
                 </div>
-                <div class="form-lower" onfocus="this.placeholder = ''" onblur="this.placeholder = 'message'">
-                    <textarea placeholder="message" id="message" name="message" rows="5"></textarea>
+                <div class="form-lower" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'">
+                    <textarea placeholder="Message" id="message" name="message" rows="5"></textarea>
                     <button class="submitButton" id="submit" value="submit" onclick="validateForm();">
                         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 173.67 67.11">
                             <polygon class="behindButton" points="154.45 59.77 13.5 59.77 24.22 12.16 165.18 12.16 154.45 59.77" />

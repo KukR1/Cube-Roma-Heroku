@@ -11,11 +11,9 @@
 <script src="/js/modernizr.js" async></script>
 <script src="/js/homepage.js"></script>
 <script src="/js/lazysizes.min.js" async></script>
-<script src="/js/isotope.js"></script>
+{{-- <script src="/js/isotope.js"></script> --}}
 <script src="/js/difficulties_animation.js"></script>
 <script type="text/javascript" src="/js/slick.min.js"></script>
-<script src="/js/cubeRoomsData.js"></script>
-<script src="/js/categoryPage.js" async></script>
 <script src="/js/filterCards.js" async></script>
 
 

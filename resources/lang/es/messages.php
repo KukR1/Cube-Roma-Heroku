@@ -12,10 +12,15 @@ return [
     'menu_3' => 'Los Retos',
     'menu_4' => 'Experiencia',
     'menu_5' => 'Medidas & Restricciones',
+    'join' => 'unirse',
 
     'explore_chall' => 'Explora los Desafíos',
     'cubio_welcome' => 'Empecemos con un',
     'cubio_welcome1' => 'RETO FÁCIL',
+
+    'measures_sub' => 'Recomendaciones y medidas sanitarias implementadas en las tiendas CUBE',
+    'mask1' => 'Mask usage is recommended',
+    'mask2' => '(not supplied by CUBE stores!)',
 
     'welcome' => 'TE DAMOS LA BIENVENIDA A CUBE CHALLENGES',
     'welcome_quote' => '¿Listo para retarte a ti mismo?',

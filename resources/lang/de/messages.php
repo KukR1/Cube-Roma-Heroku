@@ -12,10 +12,15 @@ return [
     'menu_3' => 'Die Herausforderungen',
     'menu_4' => 'Erfahrung',
     'menu_5' => 'Maßnahmen & Beschränkungen',
+    'join' => 'beitreten',
 
     'explore_chall' => 'Challenges Entdecken',
     'cubio_welcome' => 'Beginnen wir mit einer',
     'cubio_welcome1' => 'LEICHTE HERAUSFORDERUNG',
+
+    'measures_sub' => 'Empfehlungen und Gesundheitsmaßnahmen in CUBE Stores',
+    'mask1' => 'Mask usage is recommended',
+    'mask2' => '(not supplied by CUBE stores!)',
 
     'welcome' => 'WILLKOMMEN ZU CUBE CHALLENGES',
     'welcome_quote' => 'Bereit für eine Herausforderung?',

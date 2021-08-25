@@ -19,7 +19,7 @@
     </defs>
         <path class="teambuilding1"
             d="M365.68,316.94H24.23c-12.48,0-22.34-11.89-21.46-25.89l16.56-265c.79-12.67,10.16-22.5,21.46-22.5H382.24c12.48,0,22.34,11.9,21.47,25.9l-16.56,265C386.35,307.12,377,316.94,365.68,316.94Z" />
-        <text class="eventTitle" transform="translate(200.44 55.4)">TEAM BUILDING
+        <text class="eventTitle" transform="translate(160.44 55.4)" id="team">
             </text>
         <g id="TEAM_BUILDING" data-name="TEAM BUILDING">
             <path class="teambuilding3"
@@ -32,10 +32,12 @@
         <path class="teambuilding4"
             d="M365.68,316.94H24.23c-12.48,0-22.34-11.89-21.46-25.89l16.56-265c.79-12.67,10.16-22.5,21.46-22.5H382.24c12.48,0,22.34,11.9,21.47,25.9l-16.56,265C386.35,307.12,377,316.94,365.68,316.94Z" />
   
-    <text x="-10" y="0" class="hiddenText">Live the experience of CUBE Challenges<tspan x="-10" y="20">along with all your colleagues.</tspan>
-        <tspan x="-10" y="40">Enhance your collaboration &amp; team </tspan>
-        <tspan x="-10" y="60">spirit through our interactive games.</tspan>
-        <tspan x="-10" y="80">Contact us now to schedule your visit!</tspan>
-    </text>
+    <text x="-10" y="0" class="hiddenText" id="team0"></text>
+     <text x="-10" y="20" class="hiddenText" id="team1"></text>
+        <text x="-10" y="40" class="hiddenText" id="team2"></text>
+        <text x="-10" y="60" class="hiddenText" id="team3"></text>
+        <text x="-10" y="80" class="hiddenText" id="team4"></text>
+          
+ 
     </g>
 </svg>

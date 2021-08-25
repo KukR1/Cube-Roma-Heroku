@@ -35,10 +35,7 @@
     </defs>
         <path class="birthdaypts1"
             d="M365.11,316.21H23.65c-12.47,0-22.33-11.9-21.46-25.9L18.75,25.36c.79-12.68,10.17-22.5,21.46-22.5H381.67c12.48,0,22.34,11.89,21.46,25.89l-16.56,265C385.78,306.38,376.41,316.21,365.11,316.21Z" />
-        <text class="eventTitle" transform="translate(261.95 61.88)">BIRTHDAY
-            <tspan class="birthdaypts5">
-                <tspan x="18.75" y="26">PARTIES</tspan>
-            </tspan>
+        <text class="eventTitle" transform="translate(135.95 61.88)" id="birthdays">
         </text>
         
 
@@ -92,10 +89,9 @@
         <path class="birthdaypts8"
             d="M189.57,258c2.89-.36,5.91-.95,7.31-2a7.34,7.34,0,0,0,1.62-10.25,7.33,7.33,0,0,0-10.25-1.61c-2,1.47-4.23,6.37-5.54,9.66-1.31-3.29-3.51-8.19-5.53-9.66A7.34,7.34,0,1,0,168.54,256c1.41,1,4.43,1.62,7.32,2H157.4v32.47H208V258ZM170,254a4.93,4.93,0,0,1,2.13-8.85,5.14,5.14,0,0,1,.78-.07,4.88,4.88,0,0,1,2.89.95c1.53,1.11,3.78,6.11,5.2,9.88C176.94,255.75,171.49,255.15,170,254Zm19.71-8a4.88,4.88,0,0,1,2.89-.95,5,5,0,0,1,.77.07,4.93,4.93,0,0,1,2.13,8.85c-1.53,1.11-7,1.71-11,1.91C185.88,252.18,188.14,247.18,189.67,246.07Z" />
 </g>
-<text x="-10" y="0" class="hiddenText">Live a unique experience, celebrating 
-    <tspan x="-10" y="20">your birthday in a CUBE store!</tspan>
-    <tspan x="-10" y="40">Surprise your friend.</tspan>
-    <tspan x="-10" y="60">Contact us and we will prepare </tspan>
-    <tspan x="-10" y="80">the best birthday party for him/her!</tspan>
-</text>
+<text x="-10" y="0" class="hiddenText" id="birthdays0"></text>
+    <text x="-10" y="20" class="hiddenText" id="birthdays1"></text>
+    <text x="-10" y="40" class="hiddenText" id="birthdays2"></text>
+    <text x="-10" y="60" class="hiddenText" id="birthdays3"></text>
+    <text x="-10" y="80" class="hiddenText" id="birthdays4"></text>
 </svg>

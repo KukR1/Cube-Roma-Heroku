@@ -1,6 +1,6 @@
 <section id="join">
     <div class="title">
-        <h2>join #CUBEWORLD</h2>
+        <h2>  {{trans('messages.join')}} #CUBEWORLD</h2>
     </div>
 
 

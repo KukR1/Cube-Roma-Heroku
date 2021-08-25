@@ -18,9 +18,9 @@ class ContactFormMail extends Mailable
      */
     public function __construct($data)
     {   
-        $this->name = $data['name'];
+        $this->fname = $data['fname'];
+        $this->lname = $data['lname'];
         $this->email = $data['email'];
-        $this->phone = $data['phone'];
         $this->message = $data['message'];
         $this->subject = $data['subject'];
     }
@@ -32,11 +32,13 @@ class ContactFormMail extends Mailable
      */
     public function build()
     {
-        return $this->from($this->email, $this->name)->subject($this->subject)->markdown('emails.contact-form', 
+        $name = $this->fname . ' ' . $this->lname; 
+
+        return $this->from($this->email, $name)->subject($this->subject)->markdown('emails.contact-form', 
             [ 
-                'name' => $this->name,
+                'fname' => $this->fname,
+                'lname' => $this->lname,
                 'email' => $this->email,
-                'phone' => $this->phone,
                 'message' => $this->message 
             ]);
     }

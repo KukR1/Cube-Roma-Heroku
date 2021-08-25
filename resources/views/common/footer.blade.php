@@ -1,5 +1,5 @@
 <footer>
-    <p class="copyright">Cube Challenges GmbH <br> Zülpicher Str.58 <br> (Untergeschoss) 50674 Köln Germany</p>
+    <p class="copyright">Cube Challenges GmbH <br> Roma, Italy </p>
         <div class="footer-logo-container">
     <p class="copyright">Copyright &copy;
         <span id="year"></span> CUBE CHALLENGES, All Rights Reserved.<br>

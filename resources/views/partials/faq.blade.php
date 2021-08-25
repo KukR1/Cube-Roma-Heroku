@@ -10,7 +10,7 @@
         <div id="accordion" class="accordion">
             <div class="card" id="faq1">
                 <div class="card-header">
-                    <a class="card-link" data-toggle="collapse" href="#questionone" aria-expanded="false" aria-controls="questionone">What is the age limit for participation at CUBE Challenges? <span class="collapsed">
+                    <a class="card-link" data-toggle="collapse" href="#questionone" aria-expanded="false" aria-controls="questionone">{{trans('messages.faq_q1')}}<span class="collapsed">
                             <p><img width="20" src="../img/home_page/faqarrow.svg" alt="FAQ Arrow"></p>
                         </span>
                         <span class="expanded">
@@ -20,13 +20,13 @@
                     </a></div>
                 <div id="questionone" class="collapse">
                     <div class="card-body">
-                        Players age is recommended to be over 10 years old.
+                        {{trans('messages.faq_a1')}}
                     </div>
                 </div>
             </div>
             <div class="card" id="faq2">
                 <div class="card-header">
-                    <a class="card-link" data-toggle="collapse" href="#questiontwo" aria-expanded="false" aria-controls="questiontwo">What do I have to wear to play? <span class="collapsed">
+                    <a class="card-link" data-toggle="collapse" href="#questiontwo" aria-expanded="false" aria-controls="questiontwo">{{trans('messages.faq_q2')}} <span class="collapsed">
                             <p><img width="20" src="../img/home_page/faqarrow.svg" alt="FAQ Arrow"></p>
                         </span>
                         <span class="expanded">
@@ -35,14 +35,13 @@
                         </span> </a></div>
                 <div id="questiontwo" class="collapse">
                     <div class="card-body">
-                        We recommend comfortable clothing, that allows freedom in movement for
-                        the activities!
+                        {{trans('messages.faq_a2')}}
                     </div>
                 </div>
             </div>
             <div class="card" id="faq3">
                 <div class="card-header">
-                    <a class="card-link" data-toggle="collapse" href="#questionthree" aria-expanded="false" aria-controls="questionthree">Can I choose which game to play? <span class="collapsed">
+                    <a class="card-link" data-toggle="collapse" href="#questionthree" aria-expanded="false" aria-controls="questionthree">{{trans('messages.faq_q3')}} <span class="collapsed">
                             <p><img width="20" src="../img/home_page/faqarrow.svg" alt="FAQ Arrow"></p>
                         </span>
                         <span class="expanded">
@@ -51,14 +50,13 @@
                         </span> </a></div>
                 <div id="questionthree" class="collapse">
                     <div class="card-body">
-                        The order of the games depends on you. You may play in any room of your
-                        preference, as many times you want.
+                        {{trans('messages.faq_a3')}}
                     </div>
                 </div>
             </div>
             <div class="card" id="faq4">
                 <div class="card-header">
-                    <a class="card-link" data-toggle="collapse" href="#questionfour" aria-expanded="false" aria-controls="questionfour">What is the difficulty level of the challenges? <span class="collapsed">
+                    <a class="card-link" data-toggle="collapse" href="#questionfour" aria-expanded="false" aria-controls="questionfour">{{trans('messages.faq_q4')}} <span class="collapsed">
                             <p><img width="20" src="../img/home_page/faqarrow.svg" alt="FAQ Arrow"></p>
                         </span>
                         <span class="expanded">
@@ -67,14 +65,13 @@
                         </span> </a></div>
                 <div id="questionfour" class="collapse">
                     <div class="card-body">
-                        There are three difficulty levels on each challenge. All levels can be
-                        played and won by everyone!
+                        {{trans('messages.faq_a4')}}
                     </div>
                 </div>
             </div>
             <div class="card" id="faq5">
                 <div class="card-header">
-                    <a class="card-link" data-toggle="collapse" href="#questionfive" aria-expanded="false" aria-controls="questionfive">How long does a game session last? <span class="collapsed">
+                    <a class="card-link" data-toggle="collapse" href="#questionfive" aria-expanded="false" aria-controls="questionfive">{{trans('messages.faq_q5')}} <span class="collapsed">
                             <p><img width="20" src="../img/home_page/faqarrow.svg" alt="FAQ Arrow"></p>
                         </span>
                         <span class="expanded">
@@ -83,14 +80,13 @@
                         </span> </a></div>
                 <div id="questionfive" class="collapse">
                     <div class="card-body">
-                        A session typically lasts 60 minutes. Although the time can be extended
-                        if the team wants to continue growing the score levels!
+                        {{trans('messages.faq_a5')}}
                     </div>
                 </div>
             </div>
             <div class="card" id="faq6">
                 <div class="card-header">
-                    <a class="card-link" data-toggle="collapse" href="#questionsix" aria-expanded="false" aria-controls="questionsix">Do you organize corporate or school events? <span class="collapsed">
+                    <a class="card-link" data-toggle="collapse" href="#questionsix" aria-expanded="false" aria-controls="questionsix">{{trans('messages.faq_q6')}} <span class="collapsed">
                             <p><img width="20" src="../img/home_page/faqarrow.svg" alt="FAQ Arrow"></p>
                         </span>
                         <span class="expanded">
@@ -99,9 +95,7 @@
                         </span> </a></div>
                 <div id="questionsix" class="collapse">
                     <div class="card-body">
-                        CUBE Challenges is ideal for organizing team building & school events!
-                        In our facilities we are able to host big Team Building Events, upon request.
-                        Minimum number of players requirements: 20.
+                        {{trans('messages.faq_a6')}}
                     </div>
                 </div>
             </div>

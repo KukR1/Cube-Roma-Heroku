@@ -4,16 +4,15 @@
 @section('title', 'Home')
 <main>
     <script>
+
 var svgCubio = {
     cubioWlc: '{{ trans('messages.cubio_welcome')}}',
     cubioWlc1: '{{ trans('messages.cubio_welcome1')}}',
     cubioWlc2: '{{ trans('messages.cubio_welcome2')}}'
 };
-
 var svgExploreChallenges = {
     exp_chall: '{{ trans('messages.explore_chall')}}'
-};
-        
+};      
 var svgFamilies = {
     fam: '{{ trans('messages.families')}}',
     fam1: '{{ trans('messages.families0')}}',
@@ -21,7 +20,6 @@ var svgFamilies = {
     fam3: '{{ trans('messages.families2')}}',
     fam4: '{{ trans('messages.families3')}}'
 };
-
 var svgFriends = {
     fr: '{{ trans('messages.friends')}}',
     fr1: '{{ trans('messages.friends0')}}',
@@ -41,8 +39,33 @@ var svgAthletes = {
     ath3: '{{ trans('messages.athletes2')}}',
     ath4: '{{ trans('messages.athletes3')}}'
 };
-
-
+var svgTeamBuilding = {
+    team: '{{ trans('messages.team_building')}}',
+    team0: '{{ trans('messages.team_building0')}}',
+    team1: '{{ trans('messages.team_building1')}}',
+    team2: '{{ trans('messages.team_building2')}}',
+    team3: '{{ trans('messages.team_building3')}}',
+    team4: '{{ trans('messages.team_building4')}}'
+};
+var svgSchoolTrips = {
+    school: '{{ trans('messages.school_trips')}}',
+    school0: '{{ trans('messages.school_trips0')}}',
+    school1: '{{ trans('messages.school_trips1')}}',
+    school2: '{{ trans('messages.school_trips2')}}',
+    school3: '{{ trans('messages.school_trips3')}}'
+};
+var svgBirthdays = {
+    birthdays: '{{ trans('messages.birthdays')}}',
+    birthdays0: '{{ trans('messages.birthdays0')}}',
+    birthdays1: '{{ trans('messages.birthdays1')}}',
+    birthdays2: '{{ trans('messages.birthdays2')}}',
+    birthdays3: '{{ trans('messages.birthdays3')}}',
+    birthdays4: '{{ trans('messages.birthdays4')}}'
+};
+var svgMasks = {
+   mask1: '{{ trans('messages.mask1')}}',
+   mask2: '{{ trans('messages.mask2')}}'
+}
         </script>
 
     @include('partials.welcome')

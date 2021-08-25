@@ -12,10 +12,15 @@ return [
     'menu_3' => 'Categories',
     'menu_4' => 'Game Steps',
     'menu_5' => 'Measures & Restrictions',
-    
+    'join' => 'join',
+
     'explore_chall' => 'Explore Challenges',
     'cubio_welcome' => 'Lets start with an',
     'cubio_welcome1' => 'EASY CHALLENGE',
+
+    'measures_sub' => 'Recommendations and health measures implemented in CUBE stores',
+    'mask1' => 'Mask usage is recommended',
+    'mask2' => '(not supplied by CUBE stores!)',
 
     'welcome' => 'WELCOME TO CUBE CHALLENGES',
     'welcome_quote' => 'Are you ready to challenge yourself?',
@@ -70,6 +75,26 @@ return [
     'special_events' => 'SPECIAL EVENTS',
     'special_events1' => 'CUBE Stores are the perfect place for...',
 
+    'team_building' => 'TEAM BUILDING',     
+    'team_building0' => 'Live the experience of CUBE Challenges',
+    'team_building1' => 'along with all your colleagues.',
+    'team_building2' => 'Enhance your collaboration & team ',
+    'team_building3' => 'spirit through our interactive games.',
+    'team_building4' => 'Contact us now to schedule your visit!',
+
+    'school_trips' => 'SCHOOL TRIPS',     
+    'school_trips0' => 'CUBE Challenges are the perfect choice',
+    'school_trips1' => 'to offer an unforgettable experience',
+    'school_trips2' => 'to your students!',
+    'school_trips3' => 'We are waiting for you!',
+
+    'birthdays' => 'BIRTHDAY PARTIES',     
+    'birthdays0' => 'Live a unique experience, celebrating',
+    'birthdays1' => 'your birthday in a CUBE store!',
+    'birthdays2' => 'Surprise your friend.',
+    'birthdays3' => 'Contact us and we will prepare',
+    'birthdays4' => 'the best birthday party for him/her!',
+
     'contact_us' => 'Contact us',
 
     'game_steps1' => 'Make a team of 2 to 6 people and come up with a team name!',
@@ -105,5 +130,19 @@ return [
     'cardio' => 'Use the climbing handles in order to cross the room without touching the red floor and cross the horizontal bar before the time expires.',
     'lava_land' => 'Welcome to the Lava land! Handling from the hot rocks and the other objects inside the room could only save you from the hot lava. Connect the paths on the screen and overcome the lava as fast as possible!',
     'color_twist' => 'Colorsteps game challenges you to put your hands and feet at different places on the colored floor without falling over. Focus on the construction at the wall which will show you your next move, place your hands and feet at the correct positions, stand over and grab the win!!!',
-    'worlderland' => 'Are you ready to travel in all over the world? Answer the questions, match the related photos with the countries on the map and gather all the points through an amazing global journey'
+    'worlderland' => 'Are you ready to travel in all over the world? Answer the questions, match the related photos with the countries on the map and gather all the points through an amazing global journey',
+
+    'faq_q1' => 'What is the age limit for participation at CUBE Challenges?',
+    'faq_q2' => 'What do I have to wear to play?',
+    'faq_q3' => 'Can I choose which game to play?',
+    'faq_q4' => 'What is the difficulty level of the challenges?',
+    'faq_q5' => 'How long does a game session last?',
+    'faq_q6' => 'What is the difficulty level of the challenges?',
+    
+    'faq_a1' => 'Players age is recommended to be over 10 years old.',
+    'faq_a2' => 'We recommend comfortable clothing, that allows freedom in movement for the activities!',
+    'faq_a3' => 'The order of the games depends on you. You may play in any room of your preference, as many times you want.',
+    'faq_a4' => 'There are three difficulty levels on each challenge. All levels can be played and won by everyone!',
+    'faq_a5' => 'A session typically lasts 60 minutes. Although the time can be extended if the team wants to continue growing the score levels!',
+    'faq_a6' => 'CUBE Challenges is ideal for organizing team building & school events! In our facilities we are able to host big Team Building Events, upon request. Minimum number of players requirements: 20.'
 ];

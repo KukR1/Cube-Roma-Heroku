@@ -40,20 +40,20 @@ class ContactController extends Controller
     public function sendEmail()
     {
 
-        $name = $_POST['name'];
+        $fname = $_POST['fname'];
+        $lname = $_POST['lname'];
         $subject = 'cuberoma.com - Contact Form ';
         $email = $_POST['email'];
-        $phone = $_POST['phone'];
         $message = $_POST['message'];
         $recipient = 'nikdani123@hotmail.com';
-        echo json_encode($name);
+       
         try {
 
             // build the template data
             $data = [
-                'name' => $name,
+                'fname' => $fname,
+                'lname' => $lname,
                 'email' => $email,
-                'phone' => $phone,
                 'message' => $message,
                 'subject' => $subject
             ];

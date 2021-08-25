@@ -214,7 +214,7 @@ function validateForm() {
       };
       $.ajax({
          type: "POST",
-         url: "../../base.php",
+         url: "/contact/email",
          data: c,
          success: function (e) {
             $("#successMsg").html(e), console.log(e);

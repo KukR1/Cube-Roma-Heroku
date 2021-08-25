@@ -3,13 +3,10 @@
 # Contact details
 
 ## Name
-{{$name}}
+{{$fname}} {{$lname}}
 
 ## Email
 {{$email}}
-
-## Phone
-{{$phone}}
 
 # Message
 

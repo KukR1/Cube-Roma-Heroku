@@ -23,6 +23,7 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/rooms/{id?}', 'RoomsController@renderSingleRoom');
     Route::get('/rooms/categories/{id?}', 'RoomsController@renderRoomsByCategory');
     Route::get('/contact', 'ContactController@render');
+    Route::get('/measures-restrictions', 'MeasuresController@render');
     Route::post('/contact/email', 'ContactController@sendEmail');
 });
 
@@ -38,5 +39,6 @@ Route::group([
     Route::get('/rooms/{id?}', 'RoomsController@renderSingleRoomwithLocale');
     Route::get('/rooms/categories/{id?}', 'RoomsController@renderRoomsByCategorywithLocale');
     Route::get('/contact', 'ContactController@render');
+    Route::get('/measures-restrictions', 'MeasuresController@render');
     Route::post('/contact/email', 'ContactController@sendEmail');
 });
